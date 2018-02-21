@@ -1,0 +1,355 @@
+	@media screen and (min-width: 1440px)
+{
+.grafica
+{
+	margin-left:910px
+}
+
+
+
+}
+	@media only screen and (max-width : 1200px)
+{
+.container
+{
+	max-width:940px
+}
+.reviews h2:after
+{
+	display:none
+}
+
+}
+	@media only screen and (max-width : 1350px)
+{
+.grafica
+{
+	display:none
+}
+
+}
+	@media only screen and (max-width : 992px)
+{
+	header .col-md-1
+{
+	background-image:none
+}
+	header .panel-heading .search-panel
+{
+	width:86%
+}
+
+
+.minus {margin-right: -15px;
+    margin-left: -15px;}
+
+.desctop_vers
+{
+	display:none
+}
+.mobile_vers
+{
+	display:block
+}
+.aboutcontentwatch
+{
+	background-image:none;
+	background-color:#ecf4ff
+}
+.bg_color
+{
+	background:none
+}
+.contw img
+{
+	margin:0 auto;
+	text-align:center;
+	padding-top:15px;
+	display:block
+}
+	#CDT
+{
+	margin-left:55px
+}
+	header .counterblock .timeleft
+{
+	margin-top:15px
+}
+	header .counterblock h4
+{
+	text-align:center
+}
+	header .counterblock .btn-warning
+{
+	margin:20px auto 0;
+	display:block
+}
+	header .counterblock .timeleft
+{
+	text-align:center
+}
+.advantage .typicalBox
+{
+	margin-bottom:25px
+}
+.helpblock .divhelp
+{
+	margin:15px 0
+}
+.mobile_vers .steps
+{
+	margin-top:35px
+}
+.prices .notefirst,.prices .notesecond,.prices .notethird
+{
+	margin-bottom:45px
+}
+.reviews h2
+{
+	height:118px
+}
+.reviews .plashki:before
+{
+	background-image:none
+}
+.reviews .plashka
+{
+	margin-bottom:50px
+}
+.reviews
+{
+	background-position:92% 57%
+}
+.aboutcontentwatch
+{
+	margin-top:50px
+}
+
+}
+	@media only screen and (max-width : 768px)
+{
+
+
+.aboutcontentwatch {
+	width: 90%;
+
+}
+
+.aboutcontentwatch ul {
+	padding-left: 20px;
+
+}
+
+	header .panel-heading .search-panel
+{
+	width:80%
+}
+.contw img
+{
+	display:block;
+	margin:0 auto
+}
+.counterblock
+{
+	text-align:center
+}
+.step ul li
+{
+	padding-top:30px
+}
+.aboutcontentwatch ul li
+{
+	line-height:20px
+}
+.ans .panel-group
+{
+	margin:0 auto
+}
+.answer .panel-default:before
+{
+	display:none
+}
+.answer .panel-default > .panel-heading a
+{
+	margin-left:0
+}
+
+.step ul li:nth-child(4) {padding-top: 45px;}
+.aboutcontentwatch ul li:first-child
+{
+	padding-top:9px
+}
+.aboutcontentwatch ul li:nth-child(3)
+{
+	padding-top:9px
+}
+
+}
+.counter
+{
+	display:block;
+	margin:0 auto
+}
+	@media only screen and (max-width : 480px)
+{
+	.reviews h3 {padding-left: 10px;
+	padding-right: 10px;}
+.aboutcontentwatch ul li
+{
+	line-height:19px;
+	font-size:1.9rem;
+	padding-left:50px
+}
+.aboutcontentwatch ul
+{
+	padding-left:20px;
+}
+
+.step ul li:nth-child(4) {padding-top: 10px;}
+.step ul li:nth-child(3) {padding-top: 1px;}
+.step ul li:nth-child(5) {padding-top: 1px;}
+
+	#CDT
+{
+	margin-left:25px
+}
+.mobile_vers .steps li
+{
+	font-size:1.4rem;
+	padding-top:10px;
+	background-size:50px;
+	padding-left:70px;
+	max-height:100px;
+	background-position:10px 0
+}
+	header .panel-heading .search-panel
+{
+	width:66%
+}
+.contw img
+{
+	max-width:220px;
+	margin-bottom:45px
+}
+	header .counterblock .counter
+{
+	max-width:260px
+}
+.advantage h2
+{
+	margin:30px 0
+}
+.step ul
+{
+	padding:0;
+	margin:0
+}
+.helpblock .btn-warning
+{
+	max-width:290px;
+	font-size:1.6rem
+}
+.reviews h2
+{
+	background-image:none
+}
+.answer .panel-default:before
+{
+	display:none
+}
+.ans .panel-group
+{
+	width:100%;
+	margin:0 auto
+}
+.answer .panel-default>.panel-heading
+{
+	padding-top:10px;
+	text-align:left
+}
+.answer .panel-default>.panel-heading a
+{
+	margin-left:0
+}
+.answer .panel-group a
+{
+	font-size:1.6rem
+}
+.answer h2
+{
+	margin:62px auto 34px
+}
+.button_bye
+{
+	font-size:1.6rem;
+	width:280px
+}
+.ans .panel-group .panel-title
+{
+	padding-top:15px
+}
+.ans .panel-group .long
+{
+	padding-top:8px
+}
+.answer .panel-body
+{
+	padding-left:0
+}
+.aboutcontentwatch ul li:first-child
+{
+	padding-top:11px
+}
+.aboutcontentwatch ul li:nth-child(3)
+{
+	padding-top:11px
+}
+
+}
+	@media only screen and (max-width : 400px)
+{
+
+.aboutcontentwatch {margin-top: 90px;}
+.answer .panel-default>.panel-heading a {
+    margin-left: 0px;
+    display: block;
+    padding-left: 18px;
+    text-decoration: none;
+    border-bottom: 0px;}
+
+.aboutcontentwatch ul {padding-left: 15px;}
+.aboutcontentwatch ul li
+{
+	height:60px;
+	line-height:19px;
+	font-size:1.9rem;
+	padding-left:43px
+}
+.aboutcontentwatch ul li:first-child
+{
+	padding-top:18px
+}
+.aboutcontentwatch ul li:nth-child(3)
+{
+	padding-top:11px
+}
+
+.aboutcontentwatch ul li:nth-child(6)
+{
+	padding-top:11px
+}
+	#CDT
+{
+	margin-left:5px
+}
+.ans .panel-group .panel-title
+{
+	padding-top:10px
+}
+.ans .panel-group .long
+{
+	padding-top:3px
+}
+
+}
+

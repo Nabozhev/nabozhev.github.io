@@ -1,0 +1,23 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+	url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "PT Sans"; */
+
+@font-face {
+	font-family: 'PT Sans Regular';
+	src: url('../fonts/PTSans/PTSans.ttf') format('truetype');
+
+}
+
+
+@font-face {
+	font-family: 'PT Sans Bold';
+	src: url('../fonts/PTSans/PTSansBold.ttf') format('truetype');
+}
