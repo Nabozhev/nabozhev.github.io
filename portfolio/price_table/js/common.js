@@ -1,6 +1,5 @@
 $(function() {
-	    $("head").append("<link rel='stylesheet' type='text/css' href='libs/animateCSS/animate.css' />");
-    $("head").append("<link rel='stylesheet' type='text/css' href='css/main.css' />");
+ 
 
 	//это чтобы работал анимация
 (function($) {
