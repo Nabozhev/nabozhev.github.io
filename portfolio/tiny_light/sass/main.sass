@@ -1,0 +1,225 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+li, ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $general-font
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+p
+	margin-bottom: 0
+.container h2
+	font-family: $general-font
+	// Style for "tinyone"
+	color: #010101
+	font-size: 30px
+	font-weight: 700
+	line-height: 20px
+
+//Пользовательские стили
+
+// Шапка
+header
+	background-color: $accent
+	padding-top: 60px
+	a
+		color: $text
+		font-size: 22px
+		font-weight: 700
+		line-height: 20px
+		&:hover
+			text-decoration: underline
+			color: $text
+.logo
+		// Style for "tinyone"
+	color: $text
+	display: flex
+	font-family: $general-font
+	font-size: 30px
+	font-weight: 700
+	line-height: 38px
+	text-decoration: none
+	&:hover
+		text-decoration: none
+		color: #010101
+	img
+		margin-right: 10px
+		display: block
+.menu
+	padding-top: 16px
+	li
+		padding-right: 70px
+		&:last-child
+			padding-right: 10px
+.left_text
+	max-width: 395px
+	padding-top: 139px
+	color: #555555
+	font-size: 16px
+	font-weight: 400
+	line-height: 20px
+	transition: all, 1.3s, ease
+	h1
+		color: #010101
+		font-size: 32px
+		font-weight: 700
+		line-height: 18px
+	span
+		color: #313841
+		font-size: 20px
+		font-weight: 400
+		line-height: 24px
+		display: block
+		margin: 23px 0px
+.ipad
+	padding-top: 67px
+	float: right
+	display: block
+	margin-right: 33px
+	transition: all, .9s, ease
+	padding-bottom: 107px
+.os_icons
+	display: flex
+	padding-top: 39px
+	transition: all, .7s, ease
+	a
+		color: #010101
+		font-size: 42px
+		font-weight: 400
+		line-height: 20px
+		margin-right: 38px
+		transition: all, .5s, ease
+		&:hover
+			color: #333
+
+//секция 2 - featured	
+.featured_section
+	background-color: #ffffff
+	padding-top: 118px
+h2
+	color: #010101
+	font-size: 32px
+	font-weight: 700
+	line-height: 32px
+	width: 100%
+	text-align: center
+.section_slogan
+	max-width: 732px
+	text-align: center
+	color: #313841
+	display: block
+	margin: 0 auto
+	padding-top: 5px
+	font-size: 20px
+	font-weight: 400
+	line-height: 24px
+	margin-bottom: 90px
+
+.feauture
+	display: flex
+	margin-bottom: 67px
+	.icon_ic
+		margin-right: 34px
+		font-size: 44px
+		font-weight: 400
+		line-height: 52.47px
+	&__text
+		color: #898989
+		font-size: 16px
+		font-weight: 400
+		line-height: 20px
+	h4
+		color: #010101
+		font-size: 22px
+		font-weight: 400
+		line-height: 24px
+
+.form_section
+	padding-top: 88px
+	background-color: #010101
+	h2
+		color: #fcdb00
+	.section_slogan
+		color: #898989
+	span
+		margin-bottom: 40px
+//Секция с формой
+
+.form_section
+
+.email_input
+	width: 580px
+	height: 50px
+	outline: none
+	border-radius: 4px
+	color: #898989
+	text-indent: 20px
+	font-size: 16px
+	font-weight: 400
+	line-height: 20px
+.touch_form
+	text-align: center
+	button
+		text-transform: uppercase
+		color: #010101
+		background-color: #fcdb00
+		font-size: 16px
+		font-weight: 700
+		line-height: 24px
+		width: 126px
+		height: 50px
+		border-radius: 4px
+		margin-left: 21px
+		cursor: pointer
+		border: none
+		outline: none
+		font-family: $general-font
+
+	//футер
+.main_footer
+	padding-top: 56px
+	padding-bottom: 100px
+	background-color: #010101
+	p
+		text-align: center
+		color: #fff
+		font-size: 16px
+		font-weight: 400
+		line-height: 20px
+	//подключение media
+@import "media"

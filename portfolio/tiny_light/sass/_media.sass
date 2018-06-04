@@ -1,0 +1,51 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+
+// ≥992px
++media-breakpoint-down(md)
+	.ipad
+		max-width: 100%
+		margin-right: 0
+// ≥768px
++media-breakpoint-down(sm)
+	.left_text
+		text-align: center
+		max-width: 100%
+	.logo
+		justify-content: center
+	.menu
+		justify-content: center
+	header
+		padding-top: 10px
+	.left_text, .featured_section
+		padding-top: 35px
+	.os_icons li:last-child a
+		margin-right: 0
+	.os_icons
+		flex-direction: row
+		justify-content: center
+	.ipad
+		float: none
+		margin: 0 auto
+// ≥576px
++media-breakpoint-down(xs)
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
