@@ -1,6 +1,5 @@
 $(function() {
  
-
 	//это чтобы работал анимация
 (function($) {
 	$.fn.animated = function(inEffect) {
