@@ -1,0 +1,107 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+// ≥1440px
+
+@media screen and (max-width: 1440px)
+	.main_header .menu li
+		padding-right: 25px
+	.dashboard_plans_card
+		width: 100%
+		max-width: 340px
+	.main_footer .main_navigation li
+		padding-right: 25px
+	.main_footer .main_navigation li:last-child
+		margin-right: 0
+	.dashboard_plans .dashboard_plans_card img
+		margin: 30px auto
+	.dashboard_plans .dashboard_plans_card a
+		margin: 35px auto 35px
+	.select_plan p
+		max-width: 320px
+		font-size: 15px
+	.dashboard_plans .dashboard_plans_card
+		min-height: 535px
+
+	.dashboard_plans
+		.dashboard_plans_card
+			&:last-child
+				margin-right: 0
+
+// ≥1368px
+@media screen and (max-width: 1120px)
+	.dashboard_plans .dashboard_plans_card
+		margin-right: 15px
+		max-width: 285px
+// ≥992px
+@media screen and (max-width: 992px)
+	.dashboard_plans
+		padding-top: 20px
+		flex-direction: column
+	.dashboard_plans_card
+		min-width: 440px
+		margin-top: 35px
+		margin-right: 0px
+	.select_plan p
+		max-width: 384px
+	.m-menu-link
+		display: flex
+		color: #fff
+		font-size: 18px
+		margin-right: 40px
+	.main_navigation
+		display: none
+// ≥576px
+@media screen and (max-width: 640px)
+	.main_footer .row1
+		flex-direction: column
+		justify-content: center
+		align-items: center
+	.main_footer .logotype
+		align-self: center
+	.row2
+		flex-direction: column
+		justify-content: center
+		align-items: center
+	.row2 span
+		margin-bottom: 25px
+		text-align: center
+	.row2 .social a
+		font-size: 26px
+	.row2 .social
+		padding-right: 0
+		margin-bottom: 20px
+@media screen and (max-width: 480px)
+	.text_layer h1
+		font-size: 52px
+	.text_layer p
+		font-size: 15px
+		width: 330px
+	.select_plan
+		padding-top: 60px
+	.dashboard_plans .dashboard_plans_card
+		width: 285px
+		min-width: 285px
+	.take_control .overley_bg
+		padding-top: 90px
+	.take_control h3
+		font-size: 52px
+	.block_btn
+		flex-direction: column
+		align-items: center
+	.block_btn a
+		margin-bottom: 10px
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)

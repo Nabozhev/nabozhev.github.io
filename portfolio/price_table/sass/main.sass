@@ -1,0 +1,560 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+.m-menu-link
+	display: none
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+li, ul
+	list-style-type: none
+	margin: 0
+	padding: 0
+
+.menu_adaptive
+	position: fixed
+	display: flex
+	padding: 0
+	margin: 0
+	right: 0
+	top: 0
+	height: 100vh
+	width: 100%
+	line-height: 4rem
+	z-index: 12
+	color: #fff
+	flex-direction: column
+	align-items: center
+	background-color: $button_bg
+	transition: all .5s
+	transform: translateX(100%)
+
+.menu_adaptive_active
+	transform: translateX(0%)
+	li
+		&:last-child
+			a
+				color: #fff	
+				padding: 12px 28px
+				border-radius: 25px
+				border: 1px solid #FFF
+	a
+		font-size: 18px
+		color: #fff
+			
+.close
+	position: absolute
+	right: 41px
+	top: 48px
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $MavenPro
+	overflow-x: hidden
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+p
+	margin-bottom: 0
+
+//Пользовательские стили
+
+// Шапка
+.main_header
+	min-height: 770px
+	height: 100vh
+	background-image: url(../img/bg.jpg)
+	background-size: cover
+	background-position: 0% 34%
+	background-repeat: no-repeat
+	.logotype
+		padding-left: 50px
+		a
+			color: #ffffff
+			font-family: $MavenPro
+			font-size: 30px
+			font-weight: 700
+			line-height: 29px
+			text-transform: uppercase
+			// Text style for "M, ISOCIAL"
+			letter-spacing: 6px
+			text-indent: 17px
+			img
+				margin-right: 17px
+	.menu
+		display: flex
+		a
+			color: #ffffff
+			font-family: $MavenPro
+			font-size: 16px
+			font-weight: 500
+			line-height: 19px
+			
+		li
+			padding-right: 60px
+			&:last-child 
+				padding: 12px 28px
+				border-radius: 25px
+				margin-right: 50px
+				border: 1px solid #FFF
+
+
+
+.container_header
+	max-width: 1820px
+	display: flex
+	margin: 0 auto
+	justify-content: space-between
+	align-items: center
+	padding-top: 55px	
+.logotype
+
+.over
+		// Style for "Rectangle"
+	height: 100vh
+	min-height: 770px
+	background-image: linear-gradient(-60deg, rgba(136,211,206,.81) 0%,rgba(110,69,226,.81) 100%)
+
+	.main_navigation
+		align-self: baseline
+		.menu
+			align-items: center
+			display: flex
+			li:last-child
+				text-transform: uppercase
+				a
+					font-size: 12px
+					font-weight: 700
+					font-family: $bold-font
+				&:hover
+					background-color: rgba(69,93,117,0.56)
+					transition: all, .9s, ease
+.text_layer
+	padding-top: 180px
+	color: #fff
+	text-align: center
+	display: flex
+	flex-direction: column
+	justify-content: end
+	align-items: center
+	*
+		//border: 1px solid red
+	h1
+		font-family: $medium-font
+		color: #fff
+		font-size: 86px
+		font-weight: 500
+		line-height: 72px
+		// Text style for "Pricing Ta"
+		letter-spacing: -2.42px
+	p
+		margin-top: 22px
+		color: #ffffff
+		width: 383px
+		text-align: center
+		font-size: 16px
+		font-weight: 400
+		font-family: $medium-font
+		line-height: 28px
+	span
+		position: relative
+		display: inline-block
+		color: #ffffff
+		font-size: 14px
+		font-weight: 700
+		line-height: 32px
+		margin-bottom: 30px
+		text-transform: uppercase
+		// Text style for "SOCIAL MAR"
+		letter-spacing: 0.7px
+		&:after
+			position: absolute
+			display: block
+			content: ' '
+			width: 23px
+			height: 1px
+			top: 15px
+			left: -150px
+			margin-left: 50%
+			background-color: #fff
+		&:before
+			position: absolute
+			display: block
+			content: ' '
+			width: 23px
+			height: 1px
+			top: 15px
+			left: 125px
+			margin-left: 50%
+			background-color: #fff	
+	a
+		margin-top: 141px
+
+
+.menu a 
+	display: inline-block
+	color: #fff
+	line-height: 1
+	text-decoration: none
+	cursor: pointer
+	&:after 
+		background-color: #fff
+		display: block
+		content: ""
+		height: 2px
+		width: 0%
+		-webkit-transition: width .3s ease-in-out
+		-moz--transition: width .3s ease-in-out
+		transition: width .3s ease-in-out
+
+	&:hover:after, &:focus:after 
+		width: 100%
+
+
+.go_to
+	position: relative
+	width: 60px
+	height: 60px
+	display: flex
+	background-color: #fff
+	box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+	border-radius: 100px
+	color: #000
+	text-align: center
+	vertical-align: middle
+	svg
+		position: absolute
+		font-size: 17px
+		left: 23px
+		top: 23px
+		color: #9fa4af
+		text-align: center
+		vertical-align: middle
+		-webkit-transition: all .3s ease-in-out
+		-moz--transition: all .3s ease-in-out
+		transition: all .3s ease-in-out
+		&:hover
+			top: 26px
+
+
+.select_plan
+	background-color: #f9fafc
+	padding-top: 120px
+	display: flex
+	flex-direction: column
+	justify-content: center
+	align-items: center
+	span.slogan
+		font-size: 14px
+		font-weight: 700
+		line-height: 32px
+		font-family: $bold-font
+		text-transform: uppercase
+		// Text style for "MIsocial"
+		letter-spacing: 0.7px
+		position: relative
+		display: flex
+		&:after
+			position: absolute
+			display: block
+			content: ' '
+			width: 23px
+			height: 1px
+			top: 15px
+			left: -65px
+			margin-left: 50%
+			background-color: #6e45e2
+			vertical-align: middle
+		&:before
+			position: absolute
+			display: block
+			content: ' '
+			width: 23px
+			height: 1px
+			top: 15px
+			left: 39px
+			margin-left: 50%
+			background-color: #6e45e2
+			vertical-align: middle
+	h2
+		color: $accent
+		font-family: $medium-font
+		font-size: 60px
+		font-weight: 500
+		line-height: 72px
+		margin-bottom: 0
+		// Text style for "Select a P"
+		letter-spacing: -1.69px
+	p
+		color: #9fa4af
+		max-width: 384px
+		text-align: center
+		margin-top: 11px
+		margin: 0 auto
+		font-size: 16px
+		font-weight: 400
+		line-height: 28px
+
+// Секция 2
+.dashboard_plans
+	padding-top: 100px
+	padding-bottom: 120px
+	display: flex
+	align-items: stretch
+	.dashboard_plans_card
+		width: 440px
+		margin-right: 50px
+		min-height: 648px
+		border-radius: 30px
+		border: 1px solid #d7dbe8
+		background-color: #ffffff
+		&:hover
+			cursor: pointer
+			-webkit-transition: all .3s ease-in-out
+			-moz--transition: all .3s ease-in-out
+			transition: all .3s ease-in-out
+			box-shadow: 0 0 82px 10px rgba(204, 204, 223, 0.71)
+		img
+			display: flex
+			min-height: 110px
+			margin: 60px auto
+		h4
+			font-family: $bold-font
+			font-size: 14px
+			font-weight: 700
+			line-height: 32px
+			text-align: center
+			color: #9fa4af
+			text-transform: uppercase
+			// Text style for "personal"
+			letter-spacing: 0.7px
+		.price
+			position: relative
+			color: $accent
+			font-family: $medium-font
+			font-size: 18px
+			font-weight: 500
+			text-align: center
+			margin: 0 auto
+			display: block
+			width: 103px
+			line-height: 72px
+			letter-spacing: -0.51px
+			// Text style for "0"
+			small	
+				font-size: 60px
+				letter-spacing: -1.69px
+			sup
+				position: absolute
+				left: -10px
+				top: 0
+				font-size: 16px
+				font-weight: 500
+				font-family: $bold-font
+				line-height: 50.55px
+				// Text style for "$"
+				letter-spacing: -0.64px
+			p
+				width: 306px
+				text-align: center
+				font-size: 16px
+				font-weight: 400
+				line-height: 28px
+				color: $text
+				
+		a
+			width: 190px
+			height: 50px
+			display: block
+			margin: 55px auto 60px
+			box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+			border-radius: 25px
+			border: 1px solid #d7dbe8
+			background-color: #ffffff
+			color: #c2c9db
+			font-size: 12px
+			text-align: center
+			font-weight: 700
+			line-height: 50px
+			text-transform: uppercase
+			transition: all .3s ease-in-out
+			text-decoration: none
+			justify-content: center
+			font-family: $bold-font
+			// Text style for "select pla"
+			letter-spacing: 0.6px
+			&:hover
+				background-color: $button_bg
+
+
+//take_control sass
+.take_control
+	background-image: url(../img/map.png)
+	background-size: cover
+	span
+		display: flex
+		justify-content: center
+		text-align: center
+		color: #ffffff
+		font-family: $bold-font
+		font-size: 14px
+		font-weight: 700
+		line-height: 32px
+		text-transform: uppercase
+		// Text style for "SOCAL MARK"
+		letter-spacing: 0.7px
+	h3
+		text-align: center
+		color: #ffffff
+		font-family: $medium-font
+		font-size: 60px
+		font-weight: 500
+		line-height: 72px
+		// Text style for "Take contr"
+		letter-spacing: -1.69px
+	.overley_bg
+		padding-top: 178px
+		min-height: 522px
+		background-image: linear-gradient(-60deg, rgba(136,211,206,.81) 0%,rgba(110,69,226,.81) 100%)
+.block_btn
+	display: flex
+	flex-direction: row
+	justify-content: center
+	a
+		width: 190px
+		height: 50px
+		box-shadow: 0 0 19px 2px rgba(204, 204, 223, 0.5)
+		border-radius: 25px
+		border: 1px solid #d7dbe8
+		background-color: #ffffff
+		color: #c2c9db
+		font-size: 12px
+		text-align: center
+		margin-right: 10px
+		margin-top: 18px
+		font-weight: 700
+		line-height: 50px
+		text-transform: uppercase
+		transition: all .3s ease-in-out
+		text-decoration: none
+		justify-content: center
+		font-family: $bold-font
+			// Text style for "select pla"
+		letter-spacing: 0.6px
+		&:hover
+			background-color: $button_bg
+
+
+.main_footer
+	max-width: 90%
+	margin: 0 auto
+	position: relative
+	padding-top: 50px
+	min-height: 180px
+	.row1
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+	.logotype
+		color: #37374a
+		font-family: $bold-font
+		font-size: 30px
+		font-weight: 700
+		align-self: baseline
+		display: flex
+		line-height: 29px
+		text-transform: uppercase
+		// Text style for "M, ISOCIAL"
+		letter-spacing: 6px
+		img
+			margin-right: 12px
+		a
+			padding-left: 17px
+			text-decoration: none
+			color: #37374a
+	.main_navigation
+		&:before
+			content: ' '
+			width: 100%
+			left: 0
+			height: 1px
+			position: absolute
+			display: block
+			bottom: 60px
+			background-color: #bdbdc2
+			opacity: 0.2
+		.menu
+			display: flex
+			a
+				color: #6a6a77
+				font-family: $medium-font
+				font-size: 16px
+				font-weight: 500
+				line-height: 19px
+				// Text style for "Home"
+				color: #756edc
+			
+		li
+			padding-right: 60px
+			align-self: baseline
+			display: flex
+			&:last-child 
+				display: flex
+				align-self: baseline
+				padding: 12px 28px
+				border-radius: 25px
+				margin-right: 50px
+				border: 1px solid #d7dbe8
+				background-color: #6e45e2
+				color: #ffffff
+				font-family: $bold-font
+				font-size: 12px
+				font-weight: 700
+				text-transform: uppercase
+				// Text style for "get starte"
+				letter-spacing: 0.6px
+				a
+					color: #fff
+
+.row2
+	padding-top: 37px
+	display: flex
+	flex-direction: row
+	font-size: 16px
+	justify-content: space-between
+	span
+		font-size: 14px
+	.social
+		padding-right: 50px
+		a
+			opacity: 0.5
+			color: #6a6a77
+			font-size: 16px
+			font-weight: 400
+			line-height: 19px
+@import "media"
