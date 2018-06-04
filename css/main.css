@@ -749,6 +749,7 @@
 	font-size:1.8rem;
 	color:#686868;
 	display:block
+ 
 }
 .prices .btn-warning
 {
@@ -836,7 +837,7 @@
 	background-repeat:repeat-x;
 	background-position:bottom
 }
- 
+
 .reviews h2
 {
 	font-family:'PT Sans Regular';
@@ -1087,4 +1088,3 @@
 	background-repeat:no-repeat;
 	background-position:center
 }
-
