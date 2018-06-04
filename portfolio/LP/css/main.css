@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "RalewayExtraLight";
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot");
+    src: url("../fonts/RalewayExtraLight/RalewayExtraLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.woff") format("woff"),
+    url("../fonts/RalewayExtraLight/RalewayExtraLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.eot");
+    src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RalewayBold/RalewayBold.woff") format("woff"),
+    url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular.otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+
+
+.title-h2 {
+  font-weight: normal;
+    font-size: 60.95px;
+  color: #2a2a2a;
+   font-family: "RalewayExtraLight";
+  text-align: center;
+  letter-spacing: -3px;
+  margin-top: 47px;
+  position: relative;
+}
+
+#line22 .why_slider .why .img-wrap {
+    width: 116px;
+    height: 111px;
+    margin: 0 auto;
+  }
+
+
+
+  #line22 .why_slider .why.first .img-wrap .img {
+    background-image: url(../img/why1.png);
+  width: 96px;
+    height: 93.6px;
+  }
+
+
+#line22 .why_slider .why.second .img-wrap .img {
+    background-image: url(../img/why2.png);
+  width: 93.6px;
+    height: 88.8px;
+  }
+
+
+
+#line22 .why_slider .why.third .img-wrap .img {
+    background-image: url(../img/why3.png);
+    width: 115.2px;
+    height: 64.8px;
+    margin: 0 auto;
+   
+  }
+
+
+#line22 .why_slider .why.fourth .img-wrap .img {
+    background-image: url(../img/why4.png);
+       width: 91.2px;
+    height: 86.4px;
+  }
+
+
+#line22 .why_slider .why .img-wrap .img {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0 auto;
+}
+
+
+.osnow img {display: block; margin: 0 auto 15px;
+    width: 93.6px;
+    height: 88.8px;}
+
+#line22 .ttl {
+    font-size: 23.46px;
+    line-height: 28px;
+    color: #282a2e;
+         font-family: "RalewayBold";
+    text-align: center;
+    display: block;
+}
+
+
+
+#line22 .line {
+    width: 40px;
+    height: 2px;
+    background-color: rgba(24, 80, 221, 0.18);
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+#line22 .descr {
+    font-size: 19.32px;
+    line-height: 27px;
+     font-family: "ProximaNovaRegular";
+    color: rgba(42, 53, 67, 0.78);
+    text-align: center;
+    max-width: 201px;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+
+
+#line22 {
+    padding-bottom: 86.25px;
+}
+
+
+#line4 {
+margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+#line22 .owl-item {width: 50% !important}
+.osnow {margin-bottom: 20px;}
+
+.title-h2 {font-size: 50px;
+  letter-spacing: -0px;}
+}
+
+
+@media only screen and (max-width: 600px) {
+.title-h2 {font-size: 30px;
+  letter-spacing: -0px;}
+
+}
+
+
+
+@media only screen and (max-width: 515px) {
+
+#line22 .col-xs-6 {width: 100%;}
+
+.osnow {margin-bottom: 20px;}
+
+}

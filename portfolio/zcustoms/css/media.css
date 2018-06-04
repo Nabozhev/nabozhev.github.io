@@ -1,0 +1,273 @@
+/*==========  Desktop First Method  ==========*/
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1400px) {
+
+    .flu_eng {
+    	padding-top: 192px;}
+
+
+
+#engine {
+	margin-top: -87px;
+}
+
+
+
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.mainhead .item h2 {
+	 
+	top: 60%;
+}
+    .flu_eng {
+    	padding-top: 92px;}
+
+
+
+.flu_eng p {font-size: 32px;}
+
+.flu_eng .lkav {left: -38px;}
+.flu_eng .rkav {right: -3px;}
+
+.flu_eng .myd {font-size: 22px;}
+
+.lump {height: 101px;}
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	.servdown .serv li {
+		width: 100%;
+	}
+
+	#uslugi p.citate {
+		font-size: 14px;
+	}
+
+.logo {margin-top: 30px;}
+.menu {margin-top: 38px;}
+.lump {height: 77px;}
+
+
+.flu_eng .lkav {font-size: 90px;}
+
+.flu_eng .rkav {font-size: 90px;}
+
+.flu_eng {padding-top: 70px;}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+.servdown .serv  {
+	float: none;
+	margin: 35px auto 0;
+}
+
+.konta span {
+	width: 100%;
+	display: table;
+}
+.konta span img {
+	float: left;
+}
+
+.servdown img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+#uslugi p.citate {display: table;}
+
+.flu_eng .lkav {font-size: 60px; display: none;}
+
+.flu_eng .rkav {font-size: 60px; display: none;}
+
+.flu_eng p {font-size: 24px;}
+
+
+
+
+#about p.citate {
+	font-size: 15px;
+	display: table;
+}
+
+
+.car img {
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+
+.lump {height: 117px;}
+	.logo {
+		float: none;
+		margin: 25px auto 0;
+		clear: both;
+	}
+
+	.logo img {
+		display: block;
+		margin: 0 auto;
+		max-height: 50px;
+	}
+
+
+.mainhead .item h2 {
+	font-size: 20px;
+	
+	top: 90%;
+
+}
+
+
+.menu {float: none;
+margin: 60px auto 0;}
+
+.menu ul   {
+	width: 402px;
+	margin: 0 auto;
+}
+
+.menu ul li  a {
+	font-size: 16px;
+}
+
+.flu_eng .myd {display: none;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 600px) {
+
+
+.flu_eng p {font-size: 20px;}
+
+.flu_eng .line {display: none;}
+
+
+.lump {display: none;}
+
+.textr {width: 100%;}
+
+#about h3 {float: none;
+text-align: center; margin-bottom: 15px;}
+
+.car img {float: none;
+margin: 0 auto;
+max-width: 80%;}
+
+
+#about .separ {
+	transform: rotate(90deg);
+	float: none;
+	margin: 0 auto;
+}
+
+#about p.citate {
+	text-align: center;
+}
+
+#uslugi .separ {
+	height: 120px;
+}
+
+.downrow {padding-top: 45px;}
+
+	}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+#uslugi .separ {
+	height: 190px;
+}
+
+.flu_eng p {font-size: 18px;}
+.servdown h5 {padding-top: 45px;}
+
+.menu ul span {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.flu_eng {padding-top: 63px;}
+.textr .title {font-size: 17px;}
+
+#about p.citate {font-size: 13px;}
+
+.mainhead .item h2 {top: 55%;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 410px) {
+.menu ul span {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.logo {margin-top: 10px;}
+.menu ul li  a {
+	font-size: 14px;
+}
+
+.menu {margin-top: 40px;}
+
+.mainhead .item h2 {top: 94%;}
+
+.flu_eng p {font-size: 11px;}
+
+.servdown {padding-top: 30px;}
+
+#uslugi .separ {display: none;}
+
+#uslugi h3 {
+	width: 100%;
+	clear: both;
+	text-align: center;
+}
+.servdown .serv li a {
+	font-size: 12px;
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

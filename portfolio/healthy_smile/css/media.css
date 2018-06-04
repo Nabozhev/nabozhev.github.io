@@ -1,0 +1,378 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1260px) {
+
+.logoimg {margin-left: -50px;}
+
+.descr {   border-left: 1px solid #008d98;}
+
+ 
+}
+
+@media only screen and (min-width : 1201px) {
+
+	 .foot8 {float: right;
+    margin-right: 19%;
+    bottom: 25px;
+    right: 290px;
+    display: block;
+        margin-top: -6%;
+    width: 280px;
+    height: 110px;
+    background: url(../images/logo-footer.png) 0 0 no-repeat;}
+
+ }
+
+@media only screen and (min-width : 993px) {
+
+ .foot1 {width: 190px;
+ 	float: left;
+ 	color: #fff;
+ 	margin-top: 20px;
+ }
+
+ .foot2 li {display: block;
+ 	margin-top: 35px;
+    float: left;
+    width: 100px;}
+
+
+  .foot3big  span {    display: block;
+    float: left; 
+    clear: both;
+    color: #fff;}
+
+    .foot3big  div {    float: left;
+    margin-left: 15px;}
+
+    .foootssl {float: right;}
+    .foootssl a {    display: block;
+    /* float: left; */
+    margin-top: -35px;}
+
+  .foot7   {    float: left;
+    color: #ccc;}
+
+    .descr span {color: #ccc;
+    	    margin-left: 185px;
+
+    line-height: 15;}
+
+   
+
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+	.hj-banner {background-image: none;}
+
+	.contacts {background-image: none;}
+
+	.hj-banner {background-image: none;}
+
+	.hj-banner  .right {float: none; width: 100%;}
+
+
+	#comment_bubble {width: 70%;}
+
+	.userbuble {width: 57%;}
+
+
+ .owl-prev {position: absolute; left: 5%; top: 20%;}
+    .owl-next {position: absolute; right: 5%; top: 20%;}
+
+
+	.whyselect h3 {font-size: 45px;}
+
+.logoimg {margin-left: -10px; width: 169px;}
+
+.addressline {
+font-size: 20px;
+text-align: right;
+}
+
+.phoneline {
+font-size: 34px;
+text-align: right;
+}
+
+#serv1 {float: right;}
+
+
+.preim {padding-left: 0;}
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+
+
+	.resize992 {padding: 0;
+margin: 0;}
+
+body span.threenumb {margin-top: 20px;
+ } 
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+	.news {width: 100% !important;}
+
+		.news ul li {max-width: 33%;     margin: 0 10px 20px !important; }
+
+		 .foot8 { 
+		 	 display: block;
+		 	 margin: 15px auto;
+     
+    width: 280px;
+    height: 110px;
+    background: url(../images/logo-footer.png) 0 0 no-repeat;}
+
+
+
+	.foot1 {color: #fff;
+            text-align: center;}
+
+
+            .foot2 {    display: block;
+                margin: 20px auto;
+                max-width: 110px;}
+
+                .foot3big {color: #fff;
+                    text-align: center;}
+
+       .foot3big  div     {max-width: 300px;
+    display: block;
+    margin: 0 auto;}
+    
+    .descr span {    color: #fff;
+    text-align: center;
+    clear: both;
+    display: block;
+    margin: 15px auto;}
+
+
+    .foot7 {    color: #fff;
+    text-align: center;}
+
+
+	.nashiraboty   h4 {font-size: 18px;}
+
+
+	.owl-prev {position: absolute; left: -3%; top: 20%;}
+    .owl-next {position: absolute; right: -3%; top: 20%;}
+
+
+		#comment_bubble {width: 90%;}
+
+	.userbuble {width: 76%;}
+
+	.owl-prev {position: absolute; left: -3%; top: 15%;}
+    .owl-next {position: absolute; right: -3%; top: 15%;}
+
+
+
+	.ownwhy {width: 70%;}
+	
+	.preim div {margin-top: 15px;}
+	.preim .preim1 {float: left;}
+	.preim .preim2 {float: right;}
+	.preim .preim3 {float: left;}
+	.preim .preim4 {float: right;}
+
+	.phoneline {font-size: 25px;}
+
+	.rabotacall {margin-left: -50px;}
+
+	#serv1 {font-size: 15px;}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	 .mapyand h2  {font-size: 35px;}
+
+
+	.panel-last-child .widget-title  {font-size: 24px !important;}
+
+
+	.nashiraboty   h4 {font-size: 30px; 
+		line-height: 100%;
+		margin: 15px auto; border: 0;}
+
+		.contacts span.number {font-size: 35px;}
+
+
+
+.whyselect h3 {font-size: 35px;}
+
+	.rabotacall {display: none;}
+	.logoimg {margin: 0; margin-top: 30px;
+	 width: 195px;}
+
+	 .shapka {background-image: none; 
+	 	height: 265px;
+	 	border-bottom: 0px solid #3496d4;
+	 	background-color: #fff;}
+
+	 	#serv1 {display: none;}
+
+	 	.addressline { text-align: center; }
+	 	.phoneline {text-align: center; line-height: 100%; }
+
+}
+
+/* Extra Small Devices, Phones */
+
+
+@media only screen and (max-width : 640px) {
+
+	.whyselect h3 {font-size: 25px;}
+
+	.whyselect h5 {font-size: 20px;}
+
+	.whyselect p {font-size: 14px;}
+
+	.ownwhy {width: 63%;}
+
+	.textabout p {margin-top: 0;}
+
+	.usluga_type h4 {height: 44px; overflow: hidden;}
+
+
+	body span.threenumb {  float: none;
+    margin: 0;
+   line-height: 3;}
+
+
+ .usluga_type {padding: 0; padding-top: 10px; height: 370px; }
+
+ .usluga_type a {width: 100%; float: none;
+  margin: 0 auto; height: 40px;
+  background-image: none;
+  background-color: #00A1D0;
+
+ 	line-height: 40px;}
+
+ 	.usluga_type span {float: none; display: block;
+ 		text-align: center;}
+
+.usluginashi h2 {font-size: 35px; margin-bottom: 20px; padding-top: 20px;}
+
+
+}
+
+@media only screen and (max-width : 520px) {
+
+	.leftFix {display: none !important;}
+	.ymaps-2-1-38-copyright__content {display: none;}
+	.ymaps-2-1-38-map-copyrights-promo {display: none;}
+
+.vk_widget {max-width: 300px; overflow: hidden;}
+
+.mapyand h2 {margin-bottom: 25px;}
+
+
+	.owl-theme .owl-controls .owl-buttons div { 
+		 font-size: 23px;
+	 height: 40px;
+	 line-height: 30px;
+        width: 40px;}
+
+        .userbuble {}
+
+
+        .userbuble img {width: 70px;
+        height: 70px;}
+
+	.preim div {margin-top: 15px;}
+	.preim .preim1 {float: left; width: 48%;}
+	.preim .preim2 {float: right; width: 48%;}
+	.preim .preim3 {float: left; width: 48%;}
+	.preim .preim4 {float: right; width: 48%;}
+
+
+	.preim1 img {    margin: 38px auto 20px;}
+	.preim2 img {    margin: 38px auto 20px;}
+	.preim3 img {    margin: 38px auto 20px;}
+	.preim4 img {    margin: 38px auto 20px;}
+
+ }
+
+
+
+@media only screen and (max-width : 480px) {
+
+	.hj-banner {background-image: none;}
+
+	.hj-banner ul li {float: none; font-size: 22px;}
+
+	.nashiraboty   h2 {font-size: 45px;}
+
+
+		.ownwhy {width: 100%; border-bottom: 2px solid #00a1f1;}
+
+		.whyselect img {display: block; margin: 0 auto; float: none;}
+
+		.whyselect h5 { text-align: center;   font-size: 15px;}
+
+.whyselect h3 {font-size: 18px;}
+.whyselect p {font-size: 15px; text-align: center;}
+
+	 .usluga_type {padding: 0; padding-top: 0px; height: 300px;}
+
+
+
+
+
+.smallrex {clear: both; width: 100%; text-align: center;}
+
+.rabotalabel {text-align: center; float: none;}
+
+.rabotatime {text-align: center; float: none; margin-top: 0;}
+
+.logoimg {margin: 0 auto; width: 245px; float: none;}
+.logosize {width: 100%;}
+
+.shapka {height: 380px;}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

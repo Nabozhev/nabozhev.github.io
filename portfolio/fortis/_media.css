@@ -1,0 +1,265 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (min-width : 1921px) {
+
+	
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+
+
+
+
+.nav > li > a {padding-left: 1px;}
+}
+
+/* Medium Devices, Desktops  col-md */
+
+@media only screen and (max-width : 992px) {
+
+
+	.dn {display: block; margin-top: -9999px;}
+
+	.navbar-right h2 {margin-left: -600px;}
+
+	.nav > li > a {padding-left: 18px;}
+
+	.navbar-nav {float: none;}
+
+	.navbar-nav li:first-child {margin-top: -10px;}
+
+
+
+.news_trips .thumbnail {max-width: initial;}
+.trips {padding-right:0;}
+
+/* СТИЛИ СЛАЙДЕРА*/
+ .carousel-inner .h1 {margin-top: -40px;line-height: 1.5; padding-left: 57px;}
+
+ .carousel-inner h1 {font-size: 31px; font-weight: bold; text-transform: none;}
+
+  #myCarousel .carousel-inner small {font-size: 20px; font-weight: bold;}
+
+ 
+  #myCarousel .carousel-inner .btn-primary {font-size: 13px;}
+
+  #myCarousel .carousel-control { z-index: 10;}
+
+
+
+}
+
+/* Small Devices, Tablets Настройка сетки col-sm! */ 
+@media only screen and (max-width : 768px) {
+
+	.dn {display: block; margin-top:0;}
+
+	.navbar-right h2 {margin: 0}
+
+
+   #myCarousel .carousel-indicators {z-index: 0;}
+
+
+	.s_slider .carousel-indicators {display: none;}
+
+
+	.navbar-nav {z-index: 20; position: relative;}
+	.main_head .nav > li > a {font-size: 12px;}
+
+
+	.main_head .navbar-right h2  {padding-top: 15px;}
+	.main_head .nav > li > a {padding-left: 15px;}
+	.main_head a {font-size: 15px;}
+	.main_head .navbar-right {margin-top: -35px; position: relative;}
+
+
+		.navbar-header .navbar-brand  {position: relative; margin-top: -8px; }
+
+
+		 .carousel-inner .h1 {margin-top: -60px;line-height: 1.5; padding-left: 57px; }
+		
+ 		.carousel-inner h1 {font-size: 26px; font-weight: bold; text-transform: none;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 15px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 12px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px;}
+
+}
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+
+/* Extra Small Devices, Phones */
+
+
+@media only screen and (max-width : 650px) {
+
+	
+
+
+.carousel-inner h1 {font-size: 21px; font-weight: bold; text-transform: none;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 11px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 10px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px; margin-top: -20px;}
+
+
+}
+
+
+
+@media only screen and (max-width : 580px) {
+
+
+.carousel-inner h1 {font-size: 17px; font-weight: bold; text-transform: none;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 12px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 11px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px; margin-top: -20px;}
+
+
+}
+
+
+@media only screen and (max-width : 555px) {
+	 	.carousel-inner {z-index: 1;}	
+
+
+
+	  #myCarousel  .carousel-caption {padding-top: 10;}
+
+
+.carousel-inner h1 {font-size: 17px; font-weight: bold; text-transform: none;margin-top: -35px;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 12px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 11px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px;  }
+
+
+}
+
+
+
+@media only screen and (max-width : 500px) {
+
+	.navbar-header .navbar-brand {margin-left: -15px;}
+
+	  #myCarousel  .carousel-caption {padding-top: 3px;}
+
+
+.carousel-inner h1 {font-size: 17px; font-weight: bold; text-transform: none;margin-top: -35px;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 12px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 11px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px;  }
+
+
+
+@media only screen and (max-width : 480px) {
+
+
+	.navbar-header .navbar-brand {margin-left: -15px;}
+
+	  #myCarousel  .carousel-caption {padding-top: 3px;    margin-left: -50px;}
+
+
+.carousel-inner h1 {font-size: 14px; font-weight: bold; text-transform: none;margin-top: -35px;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 10px; font-weight: bold;margin-top: -8px;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 10px; line-height: 9px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {font-size: 10px; }
+
+
+	footer span {
+    font-size: 15px;}
+
+.phonesmall { padding-left: 35px;}
+
+
+
+	}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+.carousel-inner h1 {font-size: 11px; font-weight: bold; text-transform: none; padding-top: 8px;}
+
+ 		  #myCarousel .carousel-inner small {font-size: 7px; font-weight: bold;}
+
+ 		   #myCarousel .carousel-inner p {font-size: 7px;}
+
+ 		   #myCarousel .carousel-inner .btn-primary {display: none;}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	footer span {
+    font-size: 15px;
+   
+   }
+
+
+   	.carousel-inner .btn-primary {
+		right: 0; position: absolute; top:0;
+		font-size: 12px; margin-top: -50px;
+									}
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

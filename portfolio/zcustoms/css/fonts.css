@@ -1,0 +1,8 @@
+ 
+/* font-family: "RobotoBold"; */
+@font-face {
+	font-family: "OpenSansSemibold";
+	src: url("../fonts/OpenSans-Bold.ttf");
+	font-style: normal;
+	font-weight: normal;
+}

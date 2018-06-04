@@ -1,0 +1,278 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.adres_left p {font-size: 16px;}
+.phone {font-size: 25px;}
+
+.logo img {max-width: 375px;}
+.logo {margin-left: -29px;}
+
+.adres_right {padding-left: 44px;}
+.adres_right .gopopap {margin-top: -8px;}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	 font-family: OpenSansaBold;
+	 font-size: 14px;
+	 text-transform: uppercase;
+	 padding-bottom: 17px;
+	 padding-top: 17px;
+	 padding-left: 18px;
+	 padding-right: 18px; }
+
+
+.navbar-default .navbar-nav > li.active > a {
+
+	 padding-left: 40px;
+	 padding-right: 40px;	
+}
+
+
+
+.uslugi .sign a h3 {font-size: 17px;}
+.uslugi .sign li {font-size: 12px; padding-left: 123px;}
+
+	article  h2 {font-size: 34px; line-height: 120%;}
+
+#owl-jobs .item img { max-width: 434px;}
+#owl-jobs .owl-prev {left: 0; top:31%;}
+#owl-jobs .owl-next {right:36px; top:31%;}
+
+
+.img_zapis img {max-width: 290px;}
+
+.text_zapis h3 {font-size: 31px;}
+
+.text_zapis span {font-size: 31px;}
+
+.text_zapis p {font-size: 17px;}
+
+.package img {max-width: 300px;}
+.package .pack {padding-left: 100px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.adres_left .gopopap {transform: scale(0.8) rotate(-0deg);}
+	.adres_right .gopopap {transform: scale(0.8) rotate(-0deg);}
+
+	.adres_left p {font-size: 13px;}
+	.adres_right p {font-size: 13px;}
+.phone {font-size: 22px;}
+
+.logo img {max-width: 270px;}
+.logo {margin-left: -29px;}
+
+.adres_right {padding-left: 4px;}
+
+
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	 font-family: OpenSansaBold;
+	 font-size: 12px;
+	 text-transform: uppercase;
+	 padding-bottom: 12px;
+	 padding-top: 12px;
+	 padding-left: 10px;
+	 padding-right: 10px; }
+
+
+.navbar-default .navbar-nav > li.active > a {
+
+	 padding-left: 25px;
+	 padding-right: 25px;	
+}
+
+.uslugi .sign a h3 {font-size: 17px;}
+.uslugi .sign li {font-size: 14px; padding-left: 123px;}
+
+.left_text p {text-align: justify;}
+
+
+#owl-jobs .item img { max-width: 324px;}
+#owl-jobs .owl-prev {left: 0; top:28%;}
+#owl-jobs .owl-next {right:36px; top:28%;}
+
+
+.img_zapis img {max-width: 220px;}
+
+.text_zapis h3 {font-size: 23px;}
+
+.text_zapis span {font-size: 23px;}
+
+.text_zapis p {font-size: 14px;}
+
+.package img {max-width: 220px;}
+.package .pack {padding-left: 74px;}
+.counters .coun_3 {clear: both; float: none;
+margin: 0 auto;  position: relative; top: 15px; left: -10px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	 .counters .coun_3 {float: left; clear: none;  position: inherit; margin-left: 6px; margin-top: 24px;}
+	 .counters div {margin-left: 15px !important; margin-bottom: 20px;}
+
+	 .package img {max-width: 290px; margin: 15px auto; display: block;}
+
+	 .package .pack {text-align: center; padding: 0; margin-top: 20px;}
+
+	 .counters {margin: 0 auto; display: table;}
+
+	article  h2 {font-size: 24px; line-height: 120%;}
+
+   .adres_left p {font-size: 16px; text-align: center;}
+	.adres_right p {font-size: 16px; text-align: center;}
+.phone {font-size: 26px; text-align: center;}
+
+.logo img {max-width: 320px;}
+.logo {margin: 0 auto; text-align: center;}
+
+.adres_right {padding-left: 0px;}
+
+	.adres_left .gopopap {
+ 		position: relative;
+		left: 50%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		margin-left: -75px;
+		transform: scale(1.0) rotate(-0deg);
+	}
+	.adres_right .gopopap {
+	 		position: relative;
+		left: 50%;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		float: left;
+		margin-left: -75px;
+		transform: scale(1.0) rotate(-0deg);
+	}
+
+.navbar-default .navbar-nav > li > a {text-align: center;}
+.navbar-toggle {float: none;  display: block; margin: 15px auto;}
+
+.glyphicon-chevron-left:before {  content: "\e079";}
+
+.glyphicon-chevron-right:before {  content: "\e080";}
+
+.glyphicon-chevron-left img {display: none;}
+.glyphicon-chevron-right img {display: none;}
+
+body .uslugi .sign img {display: block;
+	float: none;
+	margin-left: auto !important;
+margin: 0 auto;}
+
+.uslugi .sign a {padding: 0; margin: 20px auto; text-align: center;}
+
+.uslugi .sign li {margin: 0 auto !important; padding: 0; text-align: center;}
+.uslugi .sign li:last-child {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ededed;
+}
+
+.uslugi .sign ul {padding: 0;}
+
+
+#owl-jobs .item img { max-width: 286px;}
+#owl-jobs .owl-prev {left: 0; top:23%;}
+#owl-jobs .owl-next {right:0px; top:24%;}
+#owl-jobs .item a:nth-child(2) {margin-right: 0;}
+#owl-jobs .item h5 {font-size: 24px;}
+
+.img_zapis img {max-width: 290px;
+display: block; margin: 15px auto;}
+
+.text_zapis h3 {font-size: 23px; text-align: center;
+margin-top: 15px; margin-bottom: 25px;}
+
+.text_zapis span {font-size: 23px;}
+
+.text_zapis p {font-size: 13px; text-align: center;}
+
+.left_copy .copy, .left_copy .uvaga {text-align: center;}
+
+
+
+
+}
+
+@media only screen and (max-width : 630px) {
+.akciya_iphone {width: 100%; }
+
+.carousel-caption h1 {font-size: 16px;}
+
+.blue_zayavka {padding-top: 25px;}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.navbar-nav {border-top: 0;}
+.text_zapis h3 {font-size: 20px;}
+	.text_zapis span {display: block; margin: 0 auto;
+		text-align: center;}
+
+			.text_zapis p {display: block; margin: 0 auto 15px;
+		text-align: center;}
+
+#owl-jobs .item img { max-width: 172px;}
+#owl-jobs .owl-prev {left: 0; top:15%;}
+#owl-jobs .owl-next {right:0px; top:15%;}
+#owl-jobs .item a:nth-child(2) {margin-right: 0;}
+#owl-jobs .item h5 {font-size: 24px;}
+
+	.iphonewidth {width: 100%;}
+
+.logo img {max-width: 295px;}
+
+#open_form input {width: 280px;}
+#open_form button {width: 280px; font-size: 16px;}
+.zero {display: none;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 410px) {
+
+		#owl-jobs .item img { max-width: 127px;}
+#owl-jobs .owl-prev {left: 0; top:8%;}
+#owl-jobs .item a:nth-child(2) {margin-right: 0;}
+#owl-jobs .owl-next {right:0px; top:8%;}
+#owl-jobs .item h5 {font-size: 19px;}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

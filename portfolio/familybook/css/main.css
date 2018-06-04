@@ -1,0 +1,273 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "Circe Regular", sans-serif;
+	font-size: 18px;
+}
+
+.main_head {min-height: 700px; background-color: #f9f5e4;
+}
+
+
+.main_head h1 {font-family: "pt-sans-bold";
+font-size: 40px;
+line-height: 45px;
+color: #313131;
+padding-bottom: 0; margin-bottom: 14px;
+
+}
+
+
+.main_head h3 {
+		text-indent: 3px;
+	padding: 0;
+	 margin: 0;
+	 font-family: "CirceRegular";
+	 font-weight: normal;
+	 font-size: 24px;
+	 color: #313131;
+	 opacity: .9;
+	}
+
+
+
+
+.book-cont { padding-top: 50px;}
+
+
+.text-cont p {padding-right: 64px;}
+
+
+.book-cont img {
+-webkit-box-shadow: 21px 36px 46px 0px rgba(0,0,0,0.29);
+-moz-box-shadow: 21px 36px 46px 0px rgba(0,0,0,0.29);
+box-shadow: 21px 36px 46px 0px rgba(0,0,0,0.29);
+
+}
+
+
+
+.text-cont {
+	padding-top: 125px; 
+	max-width: 455px;
+	font-family: "CirceRegular";
+	 color: #313131;
+	font-size: 15px;}
+
+
+	#main_form input {
+		width: 350px; 
+		height: 44px;
+		outline: none;
+		font-family: "CirceLight";
+		font-size: 20px;
+		text-indent: 20px;
+		color: #a9a69c;
+		border-radius: 8px;
+		border: 1px solid #dfddd6;
+	}
+
+	#main_form button {
+		background-color: #f0b81b;
+		-webkit-box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+border: none;
+width: 267px;
+outline: none;
+height: 44px;
+border-radius: 15px;
+margin-top: 12px;
+font-size: 13px;
+ color: #313131;
+transition: all, .5s, ease;
+font-family: "CirceRegular";
+font-weight: bold;
+	}
+
+
+#main_form button:hover {background-color: #f5c742;}
+
+	
+
+	/*Стили 2 секции */
+
+.subject h2 {
+	font-family: "pt-sans-bold";
+	font-size: 46px;
+	color: #333;
+	margin-bottom: 0;
+}
+
+
+
+.subject h4 {font-family: "pt-sans-bold";
+	font-size: 23px;
+	margin-bottom: 18px;
+	color: #333;}
+
+
+	.subject .list-items p {
+		font-family: "pt-sans-bold";
+		font-size: 14px;
+		text-align: left;
+		line-height: 14px;
+		
+		color: #333;
+	}
+
+	.subject .list-items i {opacity: .7;}
+
+.subject .list-items a {color: #62c0d8;
+	text-decoration: underline;
+	
+}
+
+
+.who_authors {font-family: "pt-sans-bold";
+font-size: 23px;}
+
+.h2_down {text-align: center;}
+.h2_down h2 {font-size: 40px;}
+
+
+.authors h5 {font-family: "CirceRegular";
+font-weight: bold;
+font-size: 30px;}
+
+.authors .left {text-align: right; padding-left: 70px;}
+.authors .left h5 {color:#ffd033; }
+.authors .right h5 {color:#62c0d8; }
+
+
+.authors {
+	font-family: "CirceRegular";
+	font-size: 18px;
+}
+
+
+.authors span {font-size: 24px;}
+
+.authors .left img {
+ display: block;
+ margin-right: 5px;
+ float: right;}
+
+ .authors .right {padding-right: 45px;}
+
+ .authors .right img {
+ 	margin-top: 46px;
+ }
+
+
+
+	/*Стили 3 секции */
+.bid {background-color: #f9f5e4;}
+
+.bid h2 {
+	font-family: "pt-sans-bold";
+	font-size: 40px;
+	color: #333;
+	margin-bottom: 0;
+}
+
+
+.bid .who_authors {
+
+	max-width: 670px;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+#bottom_form {margin-top: 20px;}
+
+#bottom_form input {width: 360px; 
+		height: 44px;
+		outline: none;
+		font-family: "CirceLight";
+		font-size: 20px;
+		text-indent: 20px;
+		color: #ccc;
+		border-radius: 8px;
+		border: 1px solid #dfddd6;}
+
+
+
+#bottom_form button {		background-color: #f0b81b;
+		-webkit-box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+-moz-box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+box-shadow: inset 1px 1px 2px 0px rgba(0,0,0,0.1);
+border: none;
+width: 360px;
+outline: none;
+height: 44px;
+border-radius: 15px;
+margin-top: 12px;
+font-size: 14px;
+ color: #313131;
+transition: all, .5s, ease;
+font-family: "CirceRegular";
+font-weight: bold;
+	}
+
+
+#bottom_form button:hover {background-color: #f5c742;}
+
+
+.bid span {text-align: center; 
+		font-family: "pt-sans-bold";
+	font-size: 20px;
+	color: #333;
+	margin-bottom: 40px;
+	margin-top: 8px;
+	display: block;}
+
+
+/*Стили страницы спасибо*/
+
+	.thank h1 {	font-family: "pt-sans-bold";
+	font-size: 46px;
+	color: #333;
+	margin-bottom: 10px;
+	padding-top: 100px;
+	}
+
+
+	.thank span {font-family: "pt-sans-bold";
+	font-size: 24px;
+	display: block;
+	width: 365px;
+	color: #333;}
+
+
+.thank p {
+	font-family: "CirceRegular";
+	font-size: 18px;
+	color: #313131;
+}
+
+	

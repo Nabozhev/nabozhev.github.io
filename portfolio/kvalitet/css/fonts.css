@@ -1,0 +1,54 @@
+/* font-family: "NeoSansProBold"; */
+@font-face {
+/* font-family: 'Open Sans', sans-serif;
+  src: url("../fonts/OS/OpenSans-Regular.ttf");*/
+}
+@font-face {
+/* font-family: 'Open Sans', sans-serif;
+  src: url("../fonts/OS/OpenSans-Light.ttf");*/
+}
+
+ @font-face {
+    font-family: Georgia; /* Имя шрифта */
+    src: url("../fonts/georgia.ttf"); /* Путь к файлу со шрифтом */
+   } 
+ 
+ @font-face {
+  font-family: "Segoe UI"; /* Имя шрифта */
+    src: url("../fonts/segoeui.ttf"); /* Путь к файлу со шрифтом */
+   } 
+
+ @font-face {
+ font-family: Annabelle;/* Имя шрифта */
+    src: url("../fonts/Annabelle.ttf"); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+ font-family: OpenSans;/* Имя шрифта */
+    src: url("../fonts/os/OpenSans-Regular.ttf"); /* Путь к файлу со шрифтом */
+   }
+     @font-face {
+ font-family: OpenSansaBold;/* Имя шрифта */
+    src: url("../fonts/os/OpenSans-Bold.ttf"); /* Путь к файлу со шрифтом */
+   }
+
+        @font-face {
+ font-family: "OpenSansLight";/* Имя шрифта */
+    src: url("../fonts/os/OpenSans-Light.ttf"); /* Путь к файлу со шрифтом */
+   }
+
+
+      @font-face {
+ font-family: OpenSansSemiBold;/* Имя шрифта */
+    src: url("../fonts/os/OpenSans-Semibold.ttf"); /* Путь к файлу со шрифтом */
+   }
+    @font-face {
+ font-family: OpenSansExtraBold;/* Имя шрифта */
+    src: url("../fonts/os/OpenSans-ExtraBold.ttf"); /* Путь к файлу со шрифтом */
+   }
+
+@font-face{
+font-family: ProximaNova;
+  src: url("../fonts/ProximaNovaLight.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

@@ -1,0 +1,522 @@
+body {
+     font-family: "OpenSans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+
+  /*RESTS */
+  html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+  /*RESTS */
+.hidden {
+  display: none; }
+
+.container {width: 970px; margin: 0 auto; position: relative;}
+
+
+.head {height: 60px;
+  color: #fff;
+  background-color: #2a2a2a;
+ border-bottom: 4px solid #97C435;}
+
+ .head .container div {float: left;
+   font-family: "OpenSansLight";
+  height: 100%; line-height: 60px;}
+
+ .logo {width: 20%; padding-top: 21px;}
+
+  .head .container .time {width: 60%; line-height: 18px;
+    padding-top: 10px; color: #b4b4b4
+    padding-top: 12px;
+    font-family: "OpenSansLight";
+    font-size: 14px;
+   text-align: center;}
+
+ .phone {width: 20%; text-align: right;
+  font-size: 17px; font-family: "OpenSansLight";}
+  .phone p {text-align: left;
+    font-size: 18px;
+    line-height: 56px;
+    text-indent: 9px;}
+ .phone img {padding-top: 18px; float: left; margin-left: 7px;}
+
+
+ .sec1 {height: 545px; background-color: #E8E8E8;
+  width: 100%;
+  background: rgb(232,232,232);
+background: rgb(232,232,232);
+background: -moz-linear-gradient(top,  rgba(232,232,232,1) 0%, rgba(247,247,247,1) 42%, rgba(250,250,250,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(232,232,232,1) 0%,rgba(247,247,247,1) 42%,rgba(250,250,250,1) 100%);
+background: linear-gradient(to bottom,  rgba(232,232,232,1) 0%,rgba(247,247,247,1) 42%,rgba(250,250,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#fafafa',GradientType=0 );
+
+ }
+
+.container {clear: both;}
+
+ .phone_img {width: 400px; height: 498px;
+  margin-top: 20px;
+   float: left;}
+
+
+  .phone_img img {margin-left: 21px;
+    margin-top: 8px;}
+
+
+  .opisanie {width: 512px; height: 425px;
+   float: left; margin-left: 25px;
+margin-top: 63px; position: relative;}
+
+.opisanie h1 {text-align: left;
+font-weight: normal; font-size: 60px;
+   font-family: "OpenSansLight";}
+
+
+   .opisanie h1 img {position: absolute; top:7px; right: 12px;}
+
+.slog {font-family: "OpenSansLight";
+line-height: 32px;
+font-size: 24px;
+padding-left: 2px;
+  display: block; text-align: left;}
+
+
+.green {color:#529410;
+ text-align: center;
+    font-family: "OpenSans";
+   }
+
+
+.gb {font-size: 23px;
+  text-align: center;
+  font-family: "OpenSansLight";
+ margin-bottom: 10px;}
+
+.memory {margin-top: 118px; display: table;}
+
+.memory span {border-right: 2px solid #e7e7e7; float: left;
+display: block; font-family: "OpenSans";  height: 86px; width: 157px;}
+
+
+.order {width: 304px; height: 56px;
+  display: block; margin: 55px auto;
+  clear: both;
+  text-decoration: none;
+  color: #fff;
+  font-family: "OpenSansLight";
+  font-size: 25px;
+  border: 1px solid #64ae25;
+  transition: all, .4s, ease;
+  text-align: center;
+   line-height: 55px;
+  background: rgb(114,196,52);
+background: -moz-linear-gradient(top,  rgba(114,196,52,1) 0%, rgba(114,187,43,1) 47%, rgba(114,178,32,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(114,196,52,1) 0%,rgba(114,187,43,1) 47%,rgba(114,178,32,1) 100%);
+background: linear-gradient(to bottom,  rgba(114,196,52,1) 0%,rgba(114,187,43,1) 47%,rgba(114,178,32,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72c434', endColorstr='#72b220',GradientType=0 );
+border-radius: 8px;
+}
+
+.opisanie .order {margin-left: 87px;}
+.order:hover {background: rgb(114,196,52);
+background: -moz-radial-gradient(center, ellipse cover,  rgba(114,196,52,1) 0%, rgba(114,187,43,1) 47%, rgba(114,178,32,1) 100%);
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(114,196,52,1) 0%,rgba(114,187,43,1) 47%,rgba(114,178,32,1) 100%);
+background: radial-gradient(ellipse at center,  rgba(114,196,52,1) 0%,rgba(114,187,43,1) 47%,rgba(114,178,32,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#72c434', endColorstr='#72b220',GradientType=1 );
+} 
+
+
+
+
+.haracter {
+  width: 100%;
+  padding-top: 50px;
+
+  background-color: #fff;}
+
+
+
+  .haracter h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 68px;
+color: #2a2a2a;
+font-weight: 100;}
+
+.info {padding-top: 168px; float: left;}
+
+.type_block {background-color: #f8f8f8; 
+  width: 370px; height: 160px;
+padding: 20px; box-sizing: border-box; margin-bottom: 55px; }
+.type_block h3 {font-family: "OpenSansLight";
+font-weight: normal;
+margin-bottom: 20px;
+font-size: 30px; color: #549310; text-align: left;}
+
+
+.type_block p {font-family: "OpenSansLight";
+font-size: 15px;
+ line-height: 20px;}
+
+.img_center {float: left; padding-top: 75px; margin-left: 53px; }
+ 
+ .info_right {float: right; padding-top: 168px;}
+
+
+.colors  { width: 100%; clear: both;
+display: block;}
+
+
+.colors h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 113px;
+color: #2a2a2a;
+font-weight: 100;}
+
+
+.iphones_color {width: 320px;
+  overflow: hidden;
+  margin-top: 78px;
+  float: left;
+  margin-left: 80px;
+ height: 410px;  }
+
+.iphones_color img {transition: all, .7s, ease;}
+ .iphones_color .gray {margin-left: -10px; float: left;   }
+ .iphones_color .gold {margin-left: -90px; float: left;  }
+ .iphones_color .silver {margin-left: -87px; float: left;    }
+ .iphones_color .rose {margin-left: -86px; float: left;    }
+
+
+ .hide img {opacity: .2;}
+ .hide .current {opacity: 1;}
+ 
+
+ .selectors {width: 560px; height: 240px;
+ 
+  float: left;
+  position: relative;
+  margin-top: 78px;
+  font-family: "OpenSansLight";
+}
+
+
+.selectors input {width: 51px; height: 51px;
+  outline: none;
+  float: left;
+  padding: 3px;
+  border: 2px solid rgba(69,93,117,0.0);
+ }
+
+.sel_1 { box-sizing: border-box;
+   padding-left: 46px;
+    padding-top: 44px;  
+    display: block;}
+
+ .active input {  
+  border: 2px solid rgba(114,185,41,1.0);
+  border-radius: 15px;}
+
+
+  .selectors span h5 { font-size: 26px;
+    text-indent: 10px;
+    font-weight: normal;
+   color: #242424;}
+
+  .selectors span p {  font-family: "OpenSans";
+  color: #8b8b8b;
+  text-indent: 10px;
+  line-height: 44px;
+   font-size: 16px;}
+
+
+
+   .sel_2 { box-sizing: border-box;
+       padding-left: 45px;
+    padding-top: 50px;   
+    display: block;}
+
+    .sel_3 { 
+      box-sizing: border-box;
+      position: absolute;
+      top:43px;
+      width: 190px;
+      right: 86px;
+      display: block;}
+
+
+      .sel_4 { 
+      box-sizing: border-box;
+      position: absolute;
+      top:162px;
+      width: 208px;
+      right: 69px;
+      display: block;}
+
+
+
+  .colors .order {float: left; margin-left: 120px;}
+
+
+
+  .schema {background-color: #f8f8f8; clear: both;
+    width: 100%; min-height: 50px;}
+
+  .schema h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 68px;
+color: #2a2a2a;
+font-weight: 100;}
+
+.schema_slog {display: block; 
+  font-family: "OpenSansLight";
+  font-size: 18px;
+  padding-top: 17px;
+  text-align: center;}
+
+
+
+  .schema img {display: block;  margin: 91px auto 0;}
+
+ .etaps {clear: both; content: ' '; height: 180px;}
+  .etaps span {width: 25%; height: 50px; display: block;
+  float: left;   font-family: "OpenSans"; font-size: 15px; text-align: center;
+padding-top: 10px; line-height: 17px;}
+
+
+
+  .reviews h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 68px;
+color: #2a2a2a;
+font-weight: 100;}
+
+
+.rews {padding: 50px; padding-top: 54px;}
+.type_rew {min-height: 278px;
+  border: 1px solid #dbdbdb;
+  background-image: url(../img/kav.png);
+  background-repeat: no-repeat;
+      background-position: 92% 20%;
+      float: left;
+      margin-bottom: 40px;
+ width: 415px;}
+
+
+ .type_rew img {display: block; float: left; border-radius: 100px;
+  border: 1px solid #84c04d; width: 80px;
+  margin-left: 10px;     margin-left: 23px;
+    margin-top: 33px;
+  height: 80px;}
+
+
+  .type_rew h6 {
+      font-family: "OpenSans";
+      font-size: 18px;
+      display: block;
+    margin-top: 53px;
+    text-indent: 7px;
+    color: #2a2a2a;}
+
+
+    .type_rew span {font-family: "OpenSansLight"; 
+    font-size: 16px;
+        margin-top: 8px;
+    text-indent: 8px;
+    display: block;
+  }
+
+      .type_rew p {font-family: "OpenSansLight"; 
+    font-size: 15px;
+        margin-top: 0px;
+    clear: both;
+    padding: 23px;
+    padding-top: 15px;
+    line-height: 22px;
+    color: #2a2a2a;
+    display: block;
+  }
+
+
+  .garant {clear: both; width: 100%;}
+  .garant h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 68px;
+color: #2a2a2a;
+font-weight: 100;}
+
+
+.list {    padding-top: 87px;
+  padding-bottom: 130px;
+    padding-left: 94px;}
+
+
+.type_lst {width: 355px; min-height: 260px; 
+  float: left;margin-bottom: 112px;}
+
+.type_lst  img {display: block;
+  margin-left: 5px;
+    margin-top: -14px;
+
+ float: left;}
+
+
+.type_lst  h4 {
+  font-family: "OpenSansLight";
+  font-size: 33px;
+  text-indent: 26px;
+  color: #575757;
+}
+
+
+.type_lst p {font-family: "OpenSansLight"; 
+    font-size: 15px;
+        margin-top: 0px;
+    clear: both;
+    padding-left: 7px;
+    padding-top: 25px;
+    line-height: 23px;
+    color: #2a2a2a;
+    text-align: justify;
+    }
+
+    .rh {float: right; margin-right: 97px;}
+
+
+
+    footer {background-color: #f8f8f8;
+     height: 655px;
+     overflow: hidden;
+      width: 100%; clear: both;}
+
+
+
+        .oformlenie h2 {font-family: "OpenSansLight";
+text-align: center;
+font-size: 45px;
+padding-top: 58px;
+color: #2a2a2a;
+font-weight: 100;}
+
+ 
+
+.ipleft {position: absolute;     top: 133px;
+    left: 20px;}
+
+
+
+.ipright {position: absolute; top: -202px;
+    right: 34px;}
+
+
+
+  .cloud_form {margin: 0 auto;
+    padding-top: 50px;
+   width: 490px; height: 430px;}
+
+
+   .cloud_form label {
+    font-size: 16px;
+    font-family: "OpenSansLight";
+    color: #2a2a2a;
+    text-align: right;
+    width: 125px;
+     float: left;
+
+    line-height: 42px;
+    padding-right: 12px;
+   }
+
+
+   .cloud_form input {height: 38px;
+    border-radius: 4px;
+    text-indent: 10px;
+    display: block;
+    font-family: "OpenSansLight";
+    border: 1px solid #dbdbdb;
+    outline-color: #97c435;
+    width: 290px;}
+
+
+    .cloud_form input:focus, .cloud_form select:focus {
+      outline-color: #97c435;
+    }
+
+
+   .cloud_form select {
+    font-family: "OpenSansLight";
+    font-size: 16px;
+    height: 42px;
+    border-radius: 4px;
+    text-indent: 10px;
+    display: block;
+    border: 1px solid #dbdbdb;
+    width: 294px;}
+
+ 
+
+
+   .cloud_form button {cursor: pointer;     margin-left: 134px;
+    margin-top: 59px;}
+
+
+.foot {overflow: hidden;}
+    .foot .container div {line-height: 100%;}

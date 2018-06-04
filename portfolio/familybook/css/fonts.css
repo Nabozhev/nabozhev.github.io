@@ -1,0 +1,19 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+	font-family: "pt-sans-bold";
+	src: url("../fonts/pt-sans-bold/pt-sans-bold.ttf");
+	
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+	font-family: "CirceRegular";
+	src: url("../fonts/Circe/CirceRegular.otf");
+ 
+}
+
+/* font-family: "RobotoMedium"; */
+@font-face {
+font-family: "CirceLight";
+	src: url("../fonts/Circe/CirceLight.otf");
+}
+ 

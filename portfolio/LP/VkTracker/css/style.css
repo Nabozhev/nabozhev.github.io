@@ -1,0 +1,532 @@
+ #wrapper{
+	max-width:1140px;
+	outline:2px solid white;
+	padding:0;
+	margin:0 auto;
+	position:relative;
+ }
+ 
+ #header{
+	min-height:52px;
+	outline:px solid green;
+	position:relative;
+	outline:px solid white;
+	display:block;
+ }
+ 
+ #logo{
+	width:195px;
+	height:52px;
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	float:left;
+	outline:px solid white;
+	display:block;
+ }
+ 
+ #callMe input{
+	max-width:174px;
+	height:42px;
+	outline:px solid gold;
+	float:right;
+	border-radius:5px;
+	border:px solid #3fc380;
+	background-color:#3fc380;
+	color:#ffffff;
+	margin-top:10px;
+	font:13pt Calibri Light, Arial;
+	text-align:center;
+	cursor:pointer;
+	outline:px solid white;
+	display:block;
+ }
+ 
+ #callMe span input:hover{
+	color:gold;
+ }
+ 
+ #telHeader{
+	width:168px;
+	height:32px;
+	float:right;
+	font:bold 18px Calibri Light, Arial;
+	color:#54585a;
+	outline:px solid white;
+	padding-top:20px;
+	margin-right:10px;
+	display:block;
+}
+
+#wrapper-demo{
+	padding-top:82px;
+	height:328px;
+	margin:0 auto;
+	outline:px solid red;
+	position:relative;
+	outline:px solid white;
+}
+
+#textUp{
+	margin:0 auto;
+	outline:px solid white;
+}
+
+#textUp h1{
+	font:bold 30px Calibri, Calibri Light, Arial;
+	text-align:center;
+	color:#303030;
+}
+
+#textUp h2{
+	font:25px Calibri, Calibri Light, Arial;
+	padding-left:77px;
+	color:#303030;
+}
+
+#button-dos input{
+	text-transform:uppercase;
+	text-align:center;
+	height:68px;
+	width:410px;
+	position:absolute;
+	left:365px;
+	top:220px;
+	border-radius:7px;
+	border:1px solid #4bbcf4;
+	background-color:#4bbcf4;
+}
+
+#button-dos span input{
+	font:bold 14pt Calibri Light, Arial;
+	color:white;
+	cursor:pointer;
+}
+
+#button-dos span input:hover{
+	color:gold;
+}
+
+#underButton{
+	color:#bcbcbc;
+	text-align:center;
+	font:bold 17px Calibri Light, Arial;
+	position:absolute;
+	top:310px;
+	left:400px;
+}
+
+#wrapper-lineUp{
+	width:919px;
+	height:79px;
+	outline:px solid white;
+}
+
+
+#lineUp{
+	width:919px;
+	height:79px;
+	outline:px solid white;
+	position:absolute;
+	top:100px;
+	left:115px;
+	background-color:#4bbcf4;
+	
+}
+
+#logo-2{
+	background-image:url(../images/logo2.png);
+	background-repeat:no-repeat;
+	width:246px;
+	height:67px;
+	cursor:pointer;
+}
+
+#chel{
+	background-image:url(../images/4el-line.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	bottom:22px;
+	left:270px;
+	width:45px;
+	height:48px;
+}
+
+#card{
+	position:absolute;
+	top:28px;
+	left:330px;
+	color:white;
+	height:70px;
+}
+
+#card span{
+
+
+	font:bold 18px Calibri, Arial;
+}
+
+
+#wrapper-planshet{
+	height:681px;
+	background-image:url(../images/main-planshet.png);
+	background-repeat:no-repeat;
+	outline:1px solid white;
+	position:relative;
+}
+
+#wrapper-planshet-2{
+	margin-left:116px;
+	width:919px;
+	height:412px;
+	outline:1px solid white;
+	background-color:white;
+}
+
+.wrapper-left-block{
+	width:26%;
+	height:412px;
+	outline:1px solid white;
+	margin-top:100px;
+	position:relative;
+}
+
+#nik{
+	width:240px;
+	height:179px;
+	outline:1px solid white;
+	background-image:url(../images/nik.png);
+	background-repeat:no-repeat;
+}
+
+.nik h1{
+	font:bold 20px black Calibri, Arial;
+	text-align:center;
+	width:240px;
+	display: block;
+	position:static;
+}
+
+#ul-left{
+	outline:1px solid white;
+	height:45%;
+}
+
+#col li {
+display: block;
+float: left;
+width: 45%;
+border: 1px solid #ccc;
+      }
+#col {
+margin-left: 40px;
+margin-top:20px;
+padding: 0;
+list-style-type: none;
+      }
+
+.leftB-1{
+	width:240px;
+	height:95%;
+	outline:5px solid white;
+}
+
+li.leftB {
+	color:#303030;
+	font:15px Calibri, Arial, sans-serif;
+	vertical-align:top;
+	text-align:left;
+}
+
+li.rightB{
+	color:#303030;
+	vertical-align:top;
+	font:bold 15px Calibri, Arial, sans-serif;
+	text-align:right;
+}
+
+ul li.leftB{
+	margin-bottom:10px;
+	height:20px;
+	font:15px Calibri, Arial, sans-serif;
+}
+
+ul li.rightB{
+	margin-bottom:15px;
+	
+}
+
+img .rightB{
+	cursor:pointer;
+}
+
+#wrapper-right-block{
+	width:661px;
+	height:410px;
+	outline:1px solid white;
+	float:right;
+	vertical-align:top;
+
+}
+
+#wrapper-right-block ul li{
+	height:22px;
+	margin:5px;
+}
+
+.wrapper-input{
+	width:380px;
+	height:80px;
+	outline:2px solid white;
+	float:right;
+	display:block;
+}
+
+.wrapper-input span input:hover{
+	color:gold;
+}
+
+#inputLeft{
+	margin-top:30px;
+	float:left;
+	width:170px;
+	height:50px;
+	background-color:#c4c4c4;
+	cursor:pointer;
+	border-radius:7px;
+}
+
+span input #inputLeft{
+	color:white;
+}
+
+
+#inputRight{
+	width:170px;
+	height:50px;
+	background-color:#3fc380;
+	cursor:pointer;
+	border-radius:7px;
+	margin-top:30px;
+	margin-left:10px;
+}
+
+.underPlanshet{
+	text-align:center;
+	height:250px;
+	outline:1px solid white;
+}
+
+.underPlanshet h1{
+	font:37px Calibri Light, Arial, sans-serif;
+	color:#303030;
+	padding-top:150px;
+}
+
+.underPlanshet p{
+	padding-top:20px;
+	color:#303030;
+	font:21px Calibri Light, Arial, sans-serif;
+}
+
+#wrapper-lineUp{
+	width:919px;
+	height:79px;
+	outline:px solid white;
+}
+
+
+#lineUp{
+	width:919px;
+	height:79px;
+	outline:px solid white;
+	position:relative;
+	top:100px;
+	left:115px;
+	background-color:#4bbcf4;
+	margin:0 auto;
+}
+
+#logo-2{
+	background-image:url(../images/logo2.png);
+	background-repeat:no-repeat;
+	width:246px;
+	height:67px;
+	cursor:pointer;
+}
+
+#chel{
+	background-image:url(../images/4el-line.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	bottom:22px;
+	left:270px;
+	width:45px;
+	height:48px;
+}
+
+#card{
+	position:absolute;
+	top:28px;
+	left:330px;
+	color:white;
+	height:70px;
+}
+
+#card span{
+
+
+	font:bold 18px Calibri, Arial;
+}
+
+#main-wrapper{
+	width:919px;
+	height:500px;
+	outline:1px solid white;
+	margin:auto;
+	margin-top:100px;
+}
+
+#dev{
+	background-image:url(../images/dev.png);
+	background-repeat:no-repeat;
+	width:206px;
+	height:185px;
+}
+
+#arrow-left{
+	background-image:url(../images/arrow-left.png);
+	background-repeat:no-repeat;
+	width:21px;
+	height:50px;
+	position:relative;
+	right:40px;
+	bottom:250px;
+	cursor:pointer;
+}
+
+#arrow-right{
+	background-image:url(../images/arrow-right.png);
+	background-repeat:no-repeat;
+	width:21px;
+	height:50px;
+	position:relative;
+	left:939px;
+	bottom:299px;
+	cursor:pointer;
+}
+
+.buttons{
+	width:105px;
+	height:21px;
+	outline:1px solid white;
+	background-image:url(../images/krug-1.png);
+	background-repeat:repeat-x;
+	float:right;
+	position:relative;
+	right:350px;
+	cursor:pointer;
+}
+
+#blue-button{
+	width:21px;
+	height:21px;
+	background-image:url(../images/krug-2.png);
+	background-repeat:no-repeat;
+	position:relative;
+	left:484px;
+	cursor:pointer;
+}
+
+#wrapper-images{
+	height:200px;
+	outline:1px solid white;
+	margin:0 auto;
+	padding-top:50px;
+}
+
+#images-1{
+	width:1140px;
+	height:200px;
+	background-repeat:no-repeat;
+}
+
+
+
+#images-1 ul li a{
+	float:right;
+	position:relative;
+	right:50px;
+	margin-left:10px;
+}
+
+#images-2{
+	width:1140px;
+	height:200px;
+	background-repeat:no-repeat;
+}
+
+
+
+#images-2 ul li a{
+	float:right;
+	position:relative;
+	right:50px;
+	margin-left:10px;
+}
+
+#underImages {
+	padding-top:130px;
+}
+
+#contacts{
+	padding-top:150px;
+}
+
+#contacts input{
+	width:180px;
+	height:45px;
+	background-color:#3fc380;
+	cursor:pointer;
+	position:relative;
+	left:500px;
+	border-radius:7px;
+}
+
+#contacts span input{
+	color:white;
+}
+
+#contacts span input:hover{
+	color:gold;
+}
+
+#soc{
+	padding-top:50px;
+	height:100px;
+}
+
+#soc ul li a{
+	float:right;
+	position:relative;
+	right:315px;
+	padding-right:10px;
+}
+
+footer{
+	color:#3f3f3f;
+	text-align:center;
+}
+
+footer p{
+	font:20px Calibri Light, Arial, sans-serif;
+}
+
+footer p #top{
+	padding-top:10px;
+}
+
+p #copy{
+	color:#3f3f3f;
+	text-decoration:none;
+}

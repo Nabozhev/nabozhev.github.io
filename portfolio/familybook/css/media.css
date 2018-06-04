@@ -1,0 +1,135 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.text-cont {padding-left: 98px; max-width: 610px;}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.book-cont {padding: 0; margin: 30px auto; width: 405px;}
+
+	.text-cont {padding-left: 0; text-align: center; padding-top: 15px;
+		max-width: 800px !important;}
+
+		.text-cont p {padding-right: 0px;}
+
+.authors .left {text-align: left;}
+
+
+#main_form button {margin-bottom: 30px;}
+
+
+.subject .list-items p {text-align: center;}
+
+.subject h4 {text-align: center;}
+
+.subject h2 {text-align: center;}
+
+.authors .left h5 {text-align: center;}
+
+.authors .left {text-align: center; padding-left: 0;}
+
+
+.authors .left img {float: none; margin: 15px auto;}
+
+
+.authors img.people {text-align: center; display: block;
+margin: 0 auto;}
+
+.authors .right {padding-right: 0; text-align: center;}
+.authors .right h5 {text-align: center;}
+
+.authors .right img {margin-top: 0;}
+
+.bid h2 {line-height: 40px; margin-bottom: 15px; text-align: center;}
+
+#bottom_form input {margin: 0 auto;}
+
+
+
+#bottom_form {
+    margin-top: 20px;
+    width: 370px;
+    margin: 20px auto;
+}
+
+	.thank h1 {text-align: center; padding-top: 20px;}
+
+
+	.thank span {text-align: center; width: auto;}
+
+
+.thank p {text-align: center;}
+
+
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.book-cont {max-width: 300px;}
+	.book-cont img {max-width: 280px;}
+
+	#main_form input {max-width: 290px;}
+
+.authors img.people {width: 280px;}
+
+#bottom_form input {width: 280px;}
+
+#bottom_form button {width: 280px;}
+
+.thank h1 {text-align: center; font-size: 36px;}
+
+.thank span {font-size: 20px;}
+
+#bottom_form {
+    margin-top: 20px;
+    width: 290px;
+    margin: 20px auto;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

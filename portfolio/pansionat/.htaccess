@@ -1,0 +1,12 @@
+##
+ 
+
+RewriteEngine On
+php_value max_execution_time 60
+AddDefaultCharset UTF-8
+php_value display_errors 1
+RewriteEngine On
+
+php_value upload_max_filesize 8M
+php_value post_max_size 16M
+ 

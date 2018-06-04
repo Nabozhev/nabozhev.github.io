@@ -1,0 +1,182 @@
+.psevdomenu {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle {background-position: 35px 0px; background-color: #353535; }
+
+
+
+
+/* 2 кнопка меню и ее выпадающий список */
+
+
+.psevdomenu_2 {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu_2  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu_2 li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu_2 .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle_2 { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle_2 {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle_2 {background-position: 35px 0px; background-color: #353535; }
+
+
+
+
+/* 3 кнопка меню и ее выпадающий список */
+
+.psevdomenu_3 {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu_3  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu_3 li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu_3 .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle_3 { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle_3 {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle_3 {background-position: 35px 0px; background-color: #353535; }
+
+
+/* 4 кнопка меню и ее выпадающий список */
+
+.psevdomenu_4 {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu_4  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu_4 li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu_4 .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle_4 { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle_4 {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle_4 {background-position: 35px 0px; background-color: #353535; }
+
+
+
+/* 5 кнопка меню и ее выпадающий список */
+.psevdomenu_5 {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu_5  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu_5 li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu_5 .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle_5 { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle_5 {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle_5 {background-position: 35px 0px; background-color: #353535; }
+
+
+/* 6 кнопка меню и ее выпадающий список */
+.psevdomenu_6 {position: absolute; width: initial; z-index: 10; display: none;
+background-color: #353535; margin-top: 20px; padding: 0;
+background-image: url(../img/triangle.png); 
+background-position: -124px 34px; background-repeat:no-repeat;}
+
+.psevdomenu_6  a {text-decoration: underline; font-size: 20px;
+font-family: "BebasRegular";}
+
+.psevdomenu_6 li { display:block; float: left; margin-left: 17px; padding-bottom: 7px;}
+
+.psevdomenu_6 .ugolok {    float: left;
+    display: block;
+    width: 16px;
+    height: 8px;
+    margin-top: -17px;
+    margin-left: 67px;
+}
+
+.mc_item_wrap .mc_toogle_6 { height: 25px; cursor: pointer;
+  background-image: url(../img/arrow_set.png);
+width: 100%;  background-position: 133px 0px;background-color: #212121;
+  }
+
+.mc_item_wrap:hover .mc_toogle_6 {background-position: 35px 0px; background-color: #353535; }
+
+.mc_item_wrap.active .mc_toogle_6 {background-position: 35px 0px; background-color: #353535; }
+
+

@@ -1,0 +1,22 @@
+/* font-family: "RobotoRegular"; */
+
+@font-face {
+	font-family: "Pragmaticac";
+	src:url(../fonts/pragmaticac.otf);
+}
+
+
+ @font-face {
+ 	font-family: 'Circe-Regular';
+ 	src:url(../fonts/Circe-regular.otf);
+ 
+ }
+
+
+
+
+ @font-face {
+ 	font-family: 'Circe-Bold';
+ 	src:url(../fonts/Circe-Bold.otf);
+ 
+ }
