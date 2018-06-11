@@ -20,7 +20,12 @@ jQuery(function() {
 			});
 			show = false;
 		}
-	});
+    });
+    
+    $(".counter").spincrement({
+        thousandSeparator: " ",
+        duration: 4200
+    });
 
 //Запуск галереи на странице проекта
 var bodyclass =$("body").hasClass("paged");
