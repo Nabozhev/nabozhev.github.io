@@ -50,9 +50,10 @@ img {
 
 body {
   font-size: 15px;
-  min-width: 320px;
   position: relative;
   line-height: 1.65;
+  width: 100%;
+  min-width: 1200px;
   font-family: "roboto-example", sans-serif;
   overflow-x: hidden;
   color: #000; }
