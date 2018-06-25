@@ -7,7 +7,6 @@ $(function() {
 		$(".navigation").toggleClass('nav_show');
 		$(this).toggleClass('clicked');
 		$(".navigation").slideToggle(300);
-
 	});
 
  
