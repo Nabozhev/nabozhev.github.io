@@ -142,8 +142,8 @@ $('select').selectric({
 // Кнопка На верх
 $(window).scroll(function(){
 if($(this).scrollTop() > $(this).height()) {
-	console.log($(this).height());
-	console.log($(this).scrollTop());
+	// console.log($(this).height());
+	// console.log($(this).scrollTop());
 	$('.top').addClass('active');
 } else {
 	$('.top').removeClass('active');
