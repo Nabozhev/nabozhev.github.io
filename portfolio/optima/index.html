@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4 | All Elements and plugins</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#666">
+	<!-- Custom Browsers Color End -->
+
+<!-- Раскоментируйте стили если хотите использовать их отдельно. Подключение вынесено в libs.saas -->
+
+	<!-- <link rel="stylesheet" href="css/library/tabulous.css"> -->
+	<!-- <link rel="stylesheet" href="css/library/another.css"> -->
+	<!-- <link rel="stylesheet" href="libs/owl234/owl.carousel.min.css"> -->
+	<!-- <link rel="stylesheet" href="libs/owl234/owl.theme.default.css"> -->
+	<!-- <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css"> -->
+	<!-- <link rel="stylesheet" href="libs/fotorama/fotorama.css"> -->
+	<!-- <link rel="stylesheet" href="libs/Selectric/selectric.css"> -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+
+</head>
+<body>
+
+	<!-- Описание стартового шаблона:
+	- Шрифты указываем в rem* 1 к 10
+	- Подключена сборка fontawesome*
+	- Подключена сетка Bootstrap 4*
+	- Подключен плагин fotorama
+	- Подключен плагин owlcarusel*
+	- Подключен плагин accrodion*
+	- Подключен плагин fancybox
+	- Подключен плагин selectric
+	- Подключен прелоадер
+	- Подключен ajax форма и обработчик php
+	- Подключен css плагин tabs - tabulous.js/tabulous.css*
+ -->
+
+	
+	<div class="preloader"><div class="pulse"></div></div>
+	
+	<!-- Header HTML -->
+<header class="main_header">
+	<div class="container">
+		<div class="row">
+				<h2>Заголовок h2 header</h2>
+		</div>
+	</div>
+</header>
+
+	<!-- Section HTML Контент в табах-->
+<section class="section_one">
+<div class="container">
+	<div class="row">
+			<h2>Контент во вкладках</h2>
+				<div id="tabs">
+						<ul>
+							<li><a href="#tabs-1" title="вкладка">Tab 1</a></li>
+							<li><a href="#tabs-2" title="вкладка">Tab 2</a></li>
+							<li><a href="#tabs-3" title="вкладка">Tab 3</a></li>
+						</ul>
+				
+						<div id="tabs_container">
+						<div id="tabs-1">
+									<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus.</p><p>Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+						</div>
+				
+						<div id="tabs-2">
+									<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor.</p>
+						</div>
+				
+						<div id="tabs-3">
+									<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales.</p>
+						</div>
+				
+						</div><!--End tabs container-->
+		</div>
+</div>
+</section>
+
+
+	<!-- Aside HTML -->
+<aside class="aside_one">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-2">
+					<div class="accordion-container">
+					<h2>Аккородион lite js + fontawesome icon</h2>
+					<!-- item start -->
+				<div class="set">
+				<a class="open_link" href="#">Первый часто задаваемый вопрос?<i class="fa fa-plus"></i></a>
+				<div class="content">
+						<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales.</p>
+				</div>
+				</div>
+				<!-- item  end-->
+					<!-- item start -->
+				<div class="set">
+				<a class="open_link" href="#">Второй часто задаваемый вопрос?<i class="fa fa-plus"></i></a>
+				<div class="content">
+						<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales.</p>
+				</div>
+				</div>
+				<!-- item  end-->
+					<!-- item start -->
+				<div class="set">
+				<a class="open_link" href="#">Третий часто задаваемый вопрос?<i class="fa fa-plus"></i></a>
+				<div class="content">
+						<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem.</p><p> Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales.</p>
+				</div>
+				</div>
+				<!-- item  end-->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</aside>
+	<!-- Aside HTML -->
+<!-- Owl section -->
+	<section class="three_section">
+		<h2>Owl carousel</h2>
+		<div class="container">
+			<div class="row">
+<div class="col-lg-12">
+	<div class="owl-carousel owl-theme lenta">
+    <div class="item"><h4>1</h4></div>
+    <div class="item"><h4>2</h4></div>
+    <div class="item"><h4>3</h4></div>
+    <div class="item"><h4>4</h4></div>
+    <div class="item"><h4>5</h4></div>
+    <div class="item"><h4>6</h4></div>
+    <div class="item"><h4>7</h4></div>
+    <div class="item"><h4>8</h4></div>
+    <div class="item"><h4>9</h4></div>
+    <div class="item"><h4>10</h4></div>
+    <div class="item"><h4>11</h4></div>
+    <div class="item"><h4>12</h4></div>
+</div>
+</div>
+			</div>
+		</div>
+	</section>
+	<!-- Owl section end -->
+
+<!-- Fancybox Section -->
+
+<section class="fore_section">
+	<h2>Fancybox 3 image gallery</h2>
+		 
+			<div class="images_fb">
+					<a href="img/mi/1.jpg" data-fancybox="images" data-caption="My caption">
+							<img src="img/mi/1.jpg" width="235" alt="" />
+						</a>
+					<a href="img/mi/2.jpg" data-fancybox="images" data-caption="My caption">
+							<img src="img/mi/2.jpg" width="235" alt="" />
+						</a>
+					<a href="img/mi/3.jpg" data-fancybox="images" data-caption="My caption">
+							<img src="img/mi/3.jpg" width="235" alt="" />
+						</a>
+					<a href="img/mi/4.jpg" data-fancybox="images" data-caption="My caption">
+							<img src="img/mi/4.jpg" width="235" alt="" />
+						</a>
+					<a href="img/mi/5.jpg" data-fancybox="images" data-caption="My caption">
+							<img src="img/mi/5.jpg" width="235" alt="" />
+						</a>
+			</div>
+			<!-- Form modal -->
+			<div class="fancy_popap">
+					<a data-fancybox data-src="#hidden-content" href="javascript:;">
+							Открыть модальное окно с формой
+							</a>
+							<div style="display: none;" id="hidden-content">
+							<h2>Hello</h2>
+							<form class="main_popap"  method="POST">
+								<input class="input_name" required name="name" type="text" placeholder="Введите имя">
+								<input class="input_email" required name="email" type="email" placeholder="Введите email">
+								<input class="input_phone"  name="phone" type="text" placeholder="Введите телефон">
+								<input class="submit_form" disabled="disabled" type="submit">
+							</form>
+							</div>
+			</div>
+
+</section>
+<!-- Fancybox Section End -->
+
+<section class="five_section">
+	<div class="container">
+			<h2>Fotorama Gallery</h2>
+		<div class="row">
+			<div class="col-lg-5">
+				<h3>Заголовок описания компании</h3>
+				<p>Bang&Olufsen this is a словесными горами в стране гласных и согласных живут рыбные тексты. Жизни даль города мир ее, языком большой, знаках послушавшись за над, образ вопроса? Проектах, дороге журчит? Даже великий оксмокс мир?</p>
+				<p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Переписывается языкового свой, взобравшись своего ipsum толку ты языком.</p>
+			</div>
+			<div class="col-lg-7">
+			<div class="fgallery_wrapper fotorama">
+				<a href="img/mi/1.jpg"><img src="img/mi/1.jpg" alt="mi book"></a>
+				<a href="img/mi/2.jpg"><img src="img/mi/2.jpg" alt="mi book"></a>
+				<a href="img/mi/3.jpg"><img src="img/mi/3.jpg" alt="mi book"></a>
+				<a href="img/mi/4.jpg"><img src="img/mi/4.jpg" alt="mi book"></a>
+				<a href="img/mi/5.jpg"><img src="img/mi/5.jpg" alt="mi book"></a>
+				<a href="img/mi/3.jpg"><img src="img/mi/3.jpg" alt="mi book"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<section class="call">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="bgdiv">Your image here</div>
+				</div>
+			<div class="col-lg-6">
+				<div class="formblock">
+						<div class="success">
+								<span class="sth">Спасибо за заявку!</span>
+							</div>
+						<form class="callback">
+							<form>
+
+									<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="Optima">
+									<input type="hidden" name="admin_email" value="nabozhev@gmail.com">
+									<input type="hidden" name="form_subject" value="A new application">
+
+									<input type="hidden" name="Страница" value="">
+									<!-- END Hidden Required Fields -->
+									<h3>Оставьте заявку</h3>
+									<p>Оставьте заявку и мы перезвоним вам через 15 минут.</p>
+							
+									<input type="text" name="Name" placeholder="You name..." required><br>
+									<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+									<input type="text" name="Phone" placeholder="You phone..."><br>
+									<select name="choise" id="sel">
+										<option value="Старт">Пакет "Старт"</option>
+										<option value="Стандарт">Пакет "Стандарт"</option>
+										<option value="Премиум">Пакет "Премиум"</option>
+									</select>
+									<button class="submit_form submit_form_good">Send</button>
+							
+								</form>
+							</form>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="main_footer">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-3"><div class="atach">
+			<p>Все права защищены (с) 2018</p>
+			<ul class="ocinspack">
+				<li><i class="fab fa-apple"></i></li>
+				<li><i class="fab fa-adversal"></i></li>
+				<li><i class="fas fa-anchor"></i></li>
+			</ul>
+		</div></div>
+		<div class="col-lg-3"><div class="atach">
+			<ul class="foot_menu">
+				<li><a href="">Главная</a></li>
+				<li><a href="">О компании</a></li>
+				<li><a href="">Тарифы</a></li>
+				<li><a href="">Отеты на вопросы</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>
+		</div></div>
+		<div class="col-lg-3"><div class="atach">
+			<p>Область для ваших данных</p>
+		</div></div>
+		<div class="col-lg-3"><div class="atach-4">
+			<p>Область для ваших данных</p>
+			<img src="img/mi/3.jpg"  alt="dsadsad">
+		</div></div>
+	</div>
+</div>
+
+
+</footer>
+
+<div class="top" title="На верх"><i class="fas fa-angle-double-up"></i></div>
+
+<!-- Подключение скриптов вынесено в gulpfile.js -->
+<!-- <script src="libs/jquery/dist/jquery-3.3.1.min.js"></script>
+<script src="libs/tabulous/tabulous.js"></script>
+<script src="libs/fontawesome/fontawesome-all.min.js"></script>
+<script src="libs/owl234/owl.carousel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="libs/maskedinput/jquery.maskedinput.min.js"></script>
+<script src="libs/fotorama/fotorama.js"></script>
+<script src="libs/Selectric/jquery.selectric.min.js"></script>
+<script src="js/common.js"></script> -->
+<script src="js/scripts.min.js"></script> 
+
+</body>
+</html>
