@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+    line-height: 1;
+     font-family: Arial;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+    quotes: "" "";
+    
+}
+.redblock {
+    min-height: 100vh;
+    /* max-height: 100vh; */
+    /* overflow: hidden; */
+}
+
+    /* My styles */
+
+.headblock {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 28%;
+    border-bottom: 2px solid #000;
+background: #ad1117; /* Old browsers */
+background: -moz-linear-gradient(top, #ad1117 0%, #930e13 51%, #5c0a0b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ad1117 0%,#930e13 51%,#5c0a0b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ad1117 0%,#930e13 51%,#5c0a0b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad1117', endColorstr='#5c0a0b',GradientType=0 ); /* IE6-9 */
+}
+
+
+.headblock h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 7.6vh;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+
+.headblock img {
+    height: 40%;
+    width: auto;
+    /* align-self: flex-start;
+    margin-left: -15px;
+    margin-top: 15px; */
+    /* 2 */
+    /* margin-top: -15vh; */
+    margin-right: 15px;
+}
+
+
+.bodyblock {
+    font-family: Arial;
+    font-size: 3.0vh;
+    line-height: 4vh;
+    text-align: center;
+    padding-top: 25px;
+    color: aliceblue;
+    height: 72%;
+background: #8c060b; /* Old browsers */
+background: -moz-linear-gradient(top, #8c060b 1%, #4e0203 52%, #370101 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #8c060b 1%,#4e0203 52%,#370101 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #8c060b 1%,#4e0203 52%,#370101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c060b', endColorstr='#370101',GradientType=0 ); /* IE6-9 */
+}
+
+
+.bodyblock p { font-family: Arial;
+    color: #FBEC3F;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    font-weight: bold;
+    font-size: 3.7vh;
+}
+
+.bodyblock span {
+    font-weight: bold;
+}
+
+
+.bodyblock h3 {
+        color: #FBEC3F;
+        font-weight: bold;
+        margin-top: 25px;
+}
+
+.go_btn {
+    background-color: #17A61B;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    display: block;
+    margin: 6px auto;
+    font-size: 5vh;;
+    width: 28vw;
+    height: 8vh;
+    line-height: 8vh;
+}
+
+.timetimer {
+    font-size: 7vh;
+    padding-top: 20px;
+}
