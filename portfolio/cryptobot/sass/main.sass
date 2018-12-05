@@ -1,0 +1,358 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	background: #0E0E0E
+	color: $text
+	input, textarea
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid
+			border-color: red
+		&:required:valid
+			border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width
+		width: 100%
+
+.text-center
+	text-align: center
+
+b, strong
+	font-weight: bold
+
+.main_head
+	height: 144px
+	background-color: #0E0E0E
+
+.kontakt_header
+	padding-top: 25px
+	display: flex
+	color: white
+	img
+		margin-right: 10px
+	span
+		margin-right: 25px
+.social_header
+	padding-left: 25px
+	display: flex
+	padding-top: 25px
+	a
+		outline: none
+	img
+		transition: all .4s ease
+		margin-right: 23px
+		&:hover
+			transform: scale(1.1)
+.main_menu
+	display: flex
+	li
+		margin-right: 32px
+		list-style: none
+		a
+			font-size: 16px
+			font-weight: bold
+			color: #959595
+			text-decoration: none
+			&:hover
+				color: #06D7E6
+				transition: all .5s ease
+.has_children
+	position: relative
+	&:hover
+		border-bottom: 2px solid #00F0EB
+	ul
+		position: absolute
+		left: 0
+		top: 36px
+		height: 1px
+		overflow: hidden
+		z-index: 111
+	&:hover
+		ul
+			// position: relative
+			height: 200px
+			transition: all, 0.3s ease
+			&:before
+				content: ''
+				width: 10px
+				height: 10px
+				position: absolute
+				border-top: 0
+				left: 2px
+				top: 2px
+				z-index: 111
+			li
+				height: 36px
+				min-width: 305px
+				background-color: #0E0E0E
+				// border: 1px solid #06D7E6
+				// border-bottom: 1px solid #06D7E6
+				&:last-child
+					border-bottom: 1px solid #000
+				&:hover
+					background-color: #1E1E1E
+					a
+						text-decoration: none
+						display: block
+						width: 100%
+						outline: none
+						color: #06D7E6
+				a
+					color: #fff
+					line-height: 36px
+					padding-left: 12px
+					outline: none
+.main_menu
+	.active
+		padding-bottom: 6px
+		border-bottom: 2px solid #06D7E6
+		a
+			color: #06D7E6
+
+
+.close_mnu
+	display: none
+	position: fixed
+	right: 20px
+	top: 20px
+
+
+.headhesive
+	position: fixed
+	width: 100%
+	transform: translateY(-100%)
+	transition: all .5s ease
+
+.headhesive--stick
+	transform: translateY(-50%)
+	z-index: 999
+
+.hamburger
+	display: none
+
+.left_menu
+	max-width: 360px
+	z-index: 210
+	position: fixed
+	width: 360px
+	height: 100vh
+	background-color: #212121
+	top: 0
+	transition: all .5s ease
+	transform: translateX(-100%)
+	left: 0
+	-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.19)
+	-moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.19)
+	box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.19)
+	a
+		color: #959595
+	.active
+		color: #06d7e6
+
+.open_left_menu
+	transform: translateX(0%)	
+.main_logo
+	padding-top: 10px
+	display: block
+
+.search_input__field
+	outline: none
+	border: none
+	background-color: #0E0E0E
+	border-bottom: 2px solid #0060B8
+	width: 260px
+	color: white
+	text-indent: 4px
+.search_btn
+	border: none
+	outline: none
+	position: absolute
+	background-image: url(../img/search.svg)
+	background-repeat: no-repeat
+	width: 20px
+	height: 20px
+	right: 13px
+	top: 3px
+	color: black
+	font-size: 1px
+	background-color: #0E0E0E
+.search_inputs
+	position: relative
+#searchform
+	padding-top: 27px
+
+
+.kontakt_header
+	span
+		display: flex
+		font-size: 16px
+		line-height: 29px
+		color: #ffffff
+
+.number
+	color: #ffffff
+	text-decoration: none
+	&:hover
+		text-decoration: none
+		color: #fff
+nav
+	padding-top: 20px
+
+
+
+.flags
+	padding-top: 20px
+	display: flex
+	justify-content: flex-end
+	a
+		display: block
+		margin-left: 37px
+
+.active_lang
+	padding-bottom: 7px
+	border-bottom: 2px solid #06d7e6
+
+.flags	
+	img
+		transition: all .4s ease
+		&:hover
+			transform: scale(1.1)
+
+
+.owner_1
+	clip-path: polygon(0 0%, 100% 0, 100% 87%, 0 100%)
+	background-color: #000
+	box-shadow: 55px 55px 55px 10px #181834
+	background-image: url(../img/head.png)
+	background-repeat: no-repeat
+	background-position: right
+
+	h1
+		margin-top: 88px
+	h3
+		font-size: 24px
+		color: #06d7e6
+		text-transform: uppercase
+		margin-top: 28px
+		margin-bottom: 28px
+		font-weight: bold
+	p
+		color: #9A9DB8
+		max-width: 777px
+		font-size: 18px
+
+h1
+	font-size: 36px
+	line-height: 48px
+	color: #fff
+.bluez
+	color: #06d7e6
+
+
+.button_one
+	width: 184px
+	margin-bottom: 100px
+	height: 48px
+	display: block	
+	background-color: #432
+	color: #fff
+	text-align: center
+	line-height: 48px
+	text-decoration: none
+	background: rgb(0,96,184)
+	background: -moz-linear-gradient(left, rgba(0,96,184,1) 0%, rgba(56,35,207,1) 100%)
+	background: -webkit-linear-gradient(left, rgba(0,96,184,1) 0%,rgba(56,35,207,1) 100%)
+	background: linear-gradient(to right, rgba(0,96,184,1) 0%,rgba(56,35,207,1) 100%)
+	&:hover
+		text-decoration: none
+		color: #000
+		background: #fff
+		font-weight: bold
+
+.owner_2
+	background-color: #0E0E0E
+	padding-top: 80px
+	background-image: url(../img/BCH-Robot.png)
+	background-repeat: no-repeat
+	background-position: 100% -40%
+	
+	.owner2_title
+		color: #05E8F8
+		font-size: 36px
+		line-height: 48px
+		max-width: 696px
+		margin-bottom: 42px
+	p
+		color: #E5E5E5
+		max-width: 696px
+		font-size: 18px
+	.clwhite
+		color: white
+		font-weight: bold
+		margin-bottom: 140px
+
+.headimg
+	max-width: 100%
+
+.play_video
+	margin-left: -280px
+	margin-top: 35px
+	display: block
+	&:hover
+		img
+			transform: scale(1.1)
+			transition: all .5s ease-in-out
+
+
+
+.buttons_row
+	padding-top: 110px
+	h4
+		font-size: 24px
+		color: white
+		text-align: center
+		margin-bottom: 40px
+	p
+		font-size: 18px
+		text-align: center
+
+.box_1
+	img
+		display: block
+		margin: 0 auto
+.box_2
+	img
+		display: block
+		margin: -95px auto 0
+.box_3
+	img
+		display: block
+		margin: 0 auto
+
+
+
+
+
+
+
+
+@import "media" // Always at the end
