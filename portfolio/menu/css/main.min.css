@@ -118,7 +118,7 @@ nav ul {
 	-webkit-flex-direction: column;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	padding-top: 50px
+	padding-top: 30px
 }
 
 nav ul li {
@@ -161,4 +161,11 @@ nav ul li a:hover {
 	background-image: -webkit-linear-gradient(left, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe);
 	background-image: -o-linear-gradient(left, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe);
 	background-image: linear-gradient(to right, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe)
+}
+
+.logo {
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	padding-top: 30px;
 }
