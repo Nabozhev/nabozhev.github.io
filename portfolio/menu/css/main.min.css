@@ -93,6 +93,7 @@ strong {
 }
 
 nav {
+	margin: 0 auto;
 	height: 100vh;
 	width: 400px;
 	background-image: -webkit-gradient(linear, left top, right bottom, from(#023395), color-stop(#004a9d), color-stop(#005c9a), color-stop(#006a92), to(#007688));
