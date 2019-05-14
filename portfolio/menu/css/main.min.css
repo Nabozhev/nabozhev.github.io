@@ -96,10 +96,11 @@ nav {
 	margin: 0 auto;
 	height: 100vh;
 	width: 100%;
-	background-image: -webkit-gradient(linear, left top, right bottom, from(#023395), color-stop(#004a9d), color-stop(#005c9a), color-stop(#006a92), to(#007688));
+	background: #233951;
+	/* background-image: -webkit-gradient(linear, left top, right bottom, from(#023395), color-stop(#004a9d), color-stop(#005c9a), color-stop(#006a92), to(#007688));
 	background-image: -webkit-linear-gradient(left top, #023395, #004a9d, #005c9a, #006a92, #007688);
 	background-image: -o-linear-gradient(left top, #023395, #004a9d, #005c9a, #006a92, #007688);
-	background-image: linear-gradient(to right bottom, #023395, #004a9d, #005c9a, #006a92, #007688)
+	background-image: linear-gradient(to right bottom, #023395, #004a9d, #005c9a, #006a92, #007688) */
 }
 
 nav ul {
@@ -133,34 +134,28 @@ nav ul li a {
 	padding-left: 20px;
 	color: #fff;
 	font-family: Montserrat, sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	width: 300px;
 	height: 55px;
 	display: block;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
 	line-height: 55px;
-	background-image: -webkit-gradient(linear, left top, right top, from(#025d8d), color-stop(#15547e), color-stop(#1d4b6f), color-stop(#214260), to(#223a52));
-	background-image: -webkit-linear-gradient(left, #025d8d, #15547e, #1d4b6f, #214260, #223a52);
-	background-image: -o-linear-gradient(left, #025d8d, #15547e, #1d4b6f, #214260, #223a52);
-	background-image: linear-gradient(to right, #025d8d, #15547e, #1d4b6f, #214260, #223a52);
+
 	font-weight: 500;
-	border: 2px solid rgba(66, 232, 224, .6);
+	border: 2px solid #ffffff;
 	text-decoration: none;
-	-webkit-box-shadow: 0 0 4px 4px #0990ae;
-	box-shadow: 0 0 4px 4px #0990ae
+	/* -webkit-box-shadow: 0 0 4px 4px #0990ae; */
+	/* box-shadow: 0 0 4px 4px #0990ae */
 }
 
 nav ul li a:hover {
 	text-decoration: none;
-	color: #fff;
+	color: #000;
+	background-color: #fff;
 	-webkit-transition: all .5s ease-in;
 	-o-transition: all .5s ease-in;
 	transition: all .5s ease-in;
-	background-image: -webkit-gradient(linear, left top, right top, from(#3efed7), color-stop(#00ecee), color-stop(#00d8ff), color-stop(#00c1ff), to(#01a7fe));
-	background-image: -webkit-linear-gradient(left, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe);
-	background-image: -o-linear-gradient(left, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe);
-	background-image: linear-gradient(to right, #3efed7, #00ecee, #00d8ff, #00c1ff, #01a7fe)
 }
 
 .logo {
