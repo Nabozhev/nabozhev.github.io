@@ -95,11 +95,12 @@ strong {
 
 body {
 	background: #EEF0F0;
+	height: 100vh;
+	overflow: hidden;
 }
 
 nav {
 	margin: 0 auto;
-	/* height: 100vh; */
 	width: 100%;
 	
 	/* background-image: -webkit-gradient(linear, left top, right bottom, from(#023395), color-stop(#004a9d), color-stop(#005c9a), color-stop(#006a92), to(#007688));
@@ -210,7 +211,7 @@ nav ul li a:hover {
 
 #popap {
 	display: none;
-	height: 80vh;
+	width: 70%;
 }
 
 
@@ -220,8 +221,34 @@ nav ul li a:hover {
 }
 
 
+.fancybox-is-open .fancybox-bg {
+
+}
+
+.fancybox-bg {
+
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 992px) {
+
+	.main_footer {
+		height: 100px;
+	}
+
+	.logo {
+		width: 200px;
+	}
+
+	.fancybox-content {
+		padding: 15px !important;
+	}
 
 	.main_footer {
 		height: 150px;
