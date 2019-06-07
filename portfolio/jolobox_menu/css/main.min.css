@@ -239,24 +239,23 @@ nav ul li a:hover {
 @media screen and (max-width: 992px) {
 
 	.main_footer {
-		height: 100px;
+		height: 70px;
 	}
 
 	.logo {
 		width: 200px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.fancybox-content {
 		padding: 15px !important;
 	}
 
-	.main_footer {
-		height: 150px;
-	}
 
 	.sigma {
 		width: 150px;
-		top: 30%;
+		top: 0%;
 	}
 
 	#popap p {
