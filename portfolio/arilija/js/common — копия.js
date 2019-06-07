@@ -1,32 +1,62 @@
 $(function() {
 
-// При загрузке мобильной версии
+// обработка нажатия ссылок этапов в мобильной версии
 $(document).ready(function () {
 	if (document.documentElement.clientWidth < 992) {
 
-//при клике на пункт меню закрываем меню и переходим по якорю
-$('.main_nav li a').click(function (e) {
-	// e.preventDefault();
-	$('.c-hamburger--htx.is-active').trigger('click');
-		$('.c-hamburger--htx').removeClass('is-active');
+ $('.step_1').click(function (e) {
+ 	e.preventDefault();
+
+ 	$('.etap_1').removeClass('dn');
+ 	$('.etap_1').addClass('db');
+
  
-});
+
+ 	$('.main').addClass('dn2');
+
+ 	$('.tehnology').addClass('dn2');
+ 	$('.tehnology').removeClass('db');
+
+ 	$('.price').addClass('dn2');
+ 	$('.price').removeClass('db');
+
+ 	$('.gallery_section').addClass('dn2');
+ 	$('.gallery_section').removeClass('db');
+
+ 	$('.contacts').addClass('dn2');
+ 	$('.contacts').removeClass('db');
+
+	 $('.back').click(function (e) {
+	 	e.preventDefault();
+		 $('.logolink').trigger('click');
+		 console.log('Кликл');
+	 });
+
+
+ });
+
+
 
 	} 
 });
 
 
-//при скроле фиксируем меню в мобильной версии
-$(window).scroll(function () {
-		if ($(window).scrollTop() > 300 && document.documentElement.clientWidth < 992) {
-			$('.main_header').addClass('header-fixed');
-		} else {
-			$('.main_header').removeClass('header-fixed');
-		}
 
- });
 
- //настройки и активация галереи
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $('.gallery').slick({
 	centerMode: true,
@@ -56,8 +86,6 @@ $('.gallery').slick({
 });
 
 
- //настройки и активация галереи на внутренней странице
-
 $('.img_box').slick({
 	centerMode: true,
 	centerPadding: '0px',
@@ -85,7 +113,7 @@ $('.img_box').slick({
 	]
 });
 
-//увеличение изображения по клику
+
 
 $('.popup-link').magnificPopup({
 	type: 'image',
@@ -102,7 +130,6 @@ $('.popup-link').magnificPopup({
 
 z=50;
 
-if ($("body").hasClass("home")) {
 $(window).on('wheel', function (event) {
 
 	// deltaY obviously records vertical scroll, deltaX and deltaZ exist too
@@ -110,20 +137,20 @@ $(window).on('wheel', function (event) {
 
 		z--;
 		// wheeled up
-		if (z == 40) {
+		if(z==40) {
 			console.log(z);
 			$('.main_nav li:nth-child(1) a').trigger('click');
 		}
-
-		if (z == 30) {
-			console.log(z);
-			$('.main_nav li:nth-child(2) a').trigger('click');
+		
+		if(z==30) {
+				console.log(z);
+				$('.main_nav li:nth-child(2) a').trigger('click');
 		}
 
 
-		if (z == 20) {
-			console.log(z);
-			$('.main_nav li:nth-child(3) a').trigger('click');
+		  if(z==20) {
+				console.log(z);
+				$('.main_nav li:nth-child(3) a').trigger('click');
 		}
 
 
@@ -132,14 +159,14 @@ $(window).on('wheel', function (event) {
 			$('.main_nav li:nth-child(4) a').trigger('click');
 		}
 
-		if (z <= 0) {
-			z = 10;
+		if(z<=0) {
+			z=10;
 		}
 
-
+		
 	} else {
-		z++;
-		console.log(z);
+			z++;
+				console.log(z);
 		// wheeled down
 
 		if (z == 40) {
@@ -163,14 +190,11 @@ $(window).on('wheel', function (event) {
 			console.log(z);
 			$('.main_nav li:nth-child(4) a').trigger('click');
 		}
-		if (z >= 70) {
-			z = 50;
-		}
+				if (z >= 70) {
+					z = 50;
+				}
 	}
 });
-
-}
-
 
  
  
@@ -206,9 +230,6 @@ $(window).on('wheel', function (event) {
 
 	})();
 
-
-
-if ($("body").hasClass("home")) {
 // Перемещаем языки
 
 $(window).resize(function () {
@@ -227,20 +248,6 @@ $(document).ready(function () {
 		$(".lang_sw").appendTo(".header_wrapper"); //первое летит во второе
 	}
 });
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Перемещаем форму
 
@@ -403,7 +410,6 @@ $(document).ready(function () {
 	 // Анимация 4 секции
 	 $('.main_nav li:nth-child(3) a').click(function (e) {
 	 	e.preventDefault();
-	 	$('.main_nav li:nth-child(1) a').removeClass('active');
 	 	$('.main_nav li:nth-child(2) a').removeClass('active');
 	 	$('.main_nav li:nth-child(4) a').removeClass('active');
 	 	$(this).addClass('active');
@@ -510,6 +516,13 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+
+
+
 $('.c-hamburger--htx').click(function (e) {
 	e.preventDefault();
 	$(".main_nav").toggleClass('main_nav_active');
@@ -517,215 +530,194 @@ $('.c-hamburger--htx').click(function (e) {
 });
 
 
-//проверяет на наличие в адресе метки и килкает на нужную ссылку
-$(document).ready(function () {
-	if (window.location.href.indexOf("tehnology") > -1) {
-		console.log("Нужно перейти на технологии");
-		$('.main_nav li:nth-child(1) a').trigger('click');
-	}
+// Обработка ссылок этапа 1
+$('.step_1 off').click(function (e) {
+	e.preventDefault();
+
+	$('.etap_1').removeClass('dn');
+	$('.etap_1').addClass('db');
+
+		$('.etap_2').removeClass('db');
+		$('.etap_2').addClass('dn');
+		$('.etap_3').removeClass('db');
+		$('.etap_3').addClass('dn');
+
+		$('.etap_4').removeClass('db');
+		$('.etap_4').addClass('dn');
+
+		$('.etap_5').removeClass('db');
+		$('.etap_5').addClass('dn');
+
+	$('.main').addClass('dn');
+
+	$('.tehnology').addClass('dn');
+	$('.tehnology').removeClass('db');
+
+	$('.price').addClass('dn');
+	$('.price').removeClass('db');
+
+	$('.gallery_section').addClass('dn');
+	$('.gallery_section').removeClass('db');
+
+	$('.contacts').addClass('dn');
+	$('.contacts').removeClass('db');
+
+
 });
 
-// В мобильной версии
-$(document).ready(function () {
-	if (document.documentElement.clientWidth < 992) {
-	if (window.location.href.indexOf("tehnology") > -1) {
-			 	setTimeout(function () {
-					window.location.href = "/#tehn";
-			 	}, 100);
-		
-	}
-	}
+// Обработка ссылок этапа 2
+$('.step_2').click(function (e) {
+	e.preventDefault();
+
+	$('.etap_1').removeClass('db');
+	$('.etap_1').addClass('dn');
+
+		$('.etap_3').removeClass('db');
+		$('.etap_3').addClass('dn');
+
+		$('.etap_4').removeClass('db');
+		$('.etap_4').addClass('dn');
+		$('.etap_5').removeClass('db');
+		$('.etap_5').addClass('dn');
+
+
+	$('.etap_2').removeClass('dn');
+	$('.etap_2').addClass('db');
+
+	// 
+	$('.main').addClass('dn');
+
+	$('.tehnology').addClass('dn');
+	$('.tehnology').removeClass('db');
+
+	$('.price').addClass('dn');
+	$('.price').removeClass('db');
+
+	$('.gallery_section').addClass('dn');
+	$('.gallery_section').removeClass('db');
+
+	$('.contacts').addClass('dn');
+	$('.contacts').removeClass('db');
+
+
 });
- 
 
-// // Обработка ссылок этапа 1
-// $('.step_1 off').click(function (e) {
-// 	e.preventDefault();
+// Обработка ссылок этапа 3
+$('.step_3').click(function (e) {
+	e.preventDefault();
 
-// 	$('.etap_1').removeClass('dn');
-// 	$('.etap_1').addClass('db');
+	$('.etap_1').removeClass('db');
+	$('.etap_1').addClass('dn');
 
-// 		$('.etap_2').removeClass('db');
-// 		$('.etap_2').addClass('dn');
-// 		$('.etap_3').removeClass('db');
-// 		$('.etap_3').addClass('dn');
+	$('.etap_2').removeClass('db');
+	$('.etap_2').addClass('dn');
 
-// 		$('.etap_4').removeClass('db');
-// 		$('.etap_4').addClass('dn');
+	$('.etap_4').removeClass('db');
+	$('.etap_4').addClass('dn');
 
-// 		$('.etap_5').removeClass('db');
-// 		$('.etap_5').addClass('dn');
+	$('.etap_5').removeClass('db');
+	$('.etap_5').addClass('dn');
 
-// 	$('.main').addClass('dn');
+	$('.etap_3').removeClass('dn');
+	$('.etap_3').addClass('db');
 
-// 	$('.tehnology').addClass('dn');
-// 	$('.tehnology').removeClass('db');
+	// 
+	$('.main').addClass('dn');
 
-// 	$('.price').addClass('dn');
-// 	$('.price').removeClass('db');
+	$('.tehnology').addClass('dn');
+	$('.tehnology').removeClass('db');
 
-// 	$('.gallery_section').addClass('dn');
-// 	$('.gallery_section').removeClass('db');
+	$('.price').addClass('dn');
+	$('.price').removeClass('db');
 
-// 	$('.contacts').addClass('dn');
-// 	$('.contacts').removeClass('db');
+	$('.gallery_section').addClass('dn');
+	$('.gallery_section').removeClass('db');
 
+	$('.contacts').addClass('dn');
+	$('.contacts').removeClass('db');
 
-// });
 
-// // Обработка ссылок этапа 2
-// $('.step_2').click(function (e) {
-// 	e.preventDefault();
+});
 
-// 	$('.etap_1').removeClass('db');
-// 	$('.etap_1').addClass('dn');
+// Обработка ссылок этапа 4
+$('.step_4').click(function (e) {
+	e.preventDefault();
 
-// 		$('.etap_3').removeClass('db');
-// 		$('.etap_3').addClass('dn');
+	$('.etap_1').removeClass('db');
+	$('.etap_1').addClass('dn');
 
-// 		$('.etap_4').removeClass('db');
-// 		$('.etap_4').addClass('dn');
-// 		$('.etap_5').removeClass('db');
-// 		$('.etap_5').addClass('dn');
+	$('.etap_2').removeClass('db');
+	$('.etap_2').addClass('dn');
 
+	$('.etap_3').removeClass('db');
+	$('.etap_3').addClass('dn');
 
-// 	$('.etap_2').removeClass('dn');
-// 	$('.etap_2').addClass('db');
+	$('.etap_4').removeClass('dn');
+	$('.etap_4').addClass('db');
 
-// 	// 
-// 	$('.main').addClass('dn');
+	// 
+	$('.main').addClass('dn');
 
-// 	$('.tehnology').addClass('dn');
-// 	$('.tehnology').removeClass('db');
+	$('.tehnology').addClass('dn');
+	$('.tehnology').removeClass('db');
 
-// 	$('.price').addClass('dn');
-// 	$('.price').removeClass('db');
+	$('.price').addClass('dn');
+	$('.price').removeClass('db');
 
-// 	$('.gallery_section').addClass('dn');
-// 	$('.gallery_section').removeClass('db');
+	$('.gallery_section').addClass('dn');
+	$('.gallery_section').removeClass('db');
 
-// 	$('.contacts').addClass('dn');
-// 	$('.contacts').removeClass('db');
+	$('.contacts').addClass('dn');
+	$('.contacts').removeClass('db');
 
 
-// });
+});
 
-// // Обработка ссылок этапа 3
-// $('.step_3').click(function (e) {
-// 	e.preventDefault();
 
-// 	$('.etap_1').removeClass('db');
-// 	$('.etap_1').addClass('dn');
+// Обработка ссылок этапа 5
+$('.step_5').click(function (e) {
+	e.preventDefault();
 
-// 	$('.etap_2').removeClass('db');
-// 	$('.etap_2').addClass('dn');
+	$('.etap_1').removeClass('db');
+	$('.etap_1').addClass('dn');
 
-// 	$('.etap_4').removeClass('db');
-// 	$('.etap_4').addClass('dn');
+	$('.etap_2').removeClass('db');
+	$('.etap_2').addClass('dn');
 
-// 	$('.etap_5').removeClass('db');
-// 	$('.etap_5').addClass('dn');
+	$('.etap_3').removeClass('db');
+	$('.etap_3').addClass('dn');
 
-// 	$('.etap_3').removeClass('dn');
-// 	$('.etap_3').addClass('db');
+	$('.etap_4').removeClass('db');
+	$('.etap_4').addClass('dn');
 
-// 	// 
-// 	$('.main').addClass('dn');
+	$('.etap_5').removeClass('dn');
+	$('.etap_5').addClass('db');
 
-// 	$('.tehnology').addClass('dn');
-// 	$('.tehnology').removeClass('db');
+	// 
+	$('.main').addClass('dn');
 
-// 	$('.price').addClass('dn');
-// 	$('.price').removeClass('db');
+	$('.tehnology').addClass('dn');
+	$('.tehnology').removeClass('db');
 
-// 	$('.gallery_section').addClass('dn');
-// 	$('.gallery_section').removeClass('db');
+	$('.price').addClass('dn');
+	$('.price').removeClass('db');
 
-// 	$('.contacts').addClass('dn');
-// 	$('.contacts').removeClass('db');
+	$('.gallery_section').addClass('dn');
+	$('.gallery_section').removeClass('db');
 
+	$('.contacts').addClass('dn');
+	$('.contacts').removeClass('db');
 
-// });
 
-// // Обработка ссылок этапа 4
-// $('.step_4').click(function (e) {
-// 	e.preventDefault();
-
-// 	$('.etap_1').removeClass('db');
-// 	$('.etap_1').addClass('dn');
-
-// 	$('.etap_2').removeClass('db');
-// 	$('.etap_2').addClass('dn');
-
-// 	$('.etap_3').removeClass('db');
-// 	$('.etap_3').addClass('dn');
-
-// 	$('.etap_4').removeClass('dn');
-// 	$('.etap_4').addClass('db');
-
-// 	// 
-// 	$('.main').addClass('dn');
-
-// 	$('.tehnology').addClass('dn');
-// 	$('.tehnology').removeClass('db');
-
-// 	$('.price').addClass('dn');
-// 	$('.price').removeClass('db');
-
-// 	$('.gallery_section').addClass('dn');
-// 	$('.gallery_section').removeClass('db');
-
-// 	$('.contacts').addClass('dn');
-// 	$('.contacts').removeClass('db');
-
-
-// });
-
-
-// // Обработка ссылок этапа 5
-// $('.step_5').click(function (e) {
-// 	e.preventDefault();
-
-// 	$('.etap_1').removeClass('db');
-// 	$('.etap_1').addClass('dn');
-
-// 	$('.etap_2').removeClass('db');
-// 	$('.etap_2').addClass('dn');
-
-// 	$('.etap_3').removeClass('db');
-// 	$('.etap_3').addClass('dn');
-
-// 	$('.etap_4').removeClass('db');
-// 	$('.etap_4').addClass('dn');
-
-// 	$('.etap_5').removeClass('dn');
-// 	$('.etap_5').addClass('db');
-
-// 	// 
-// 	$('.main').addClass('dn');
-
-// 	$('.tehnology').addClass('dn');
-// 	$('.tehnology').removeClass('db');
-
-// 	$('.price').addClass('dn');
-// 	$('.price').removeClass('db');
-
-// 	$('.gallery_section').addClass('dn');
-// 	$('.gallery_section').removeClass('db');
-
-// 	$('.contacts').addClass('dn');
-// 	$('.contacts').removeClass('db');
-
-
-// });
+});
 
 
 
 // Обработка ссылок след этап
-// $('.etap_1 .next_step').click(function (e) {e.preventDefault();	$('.step_2').trigger('click');});
-// $('.etap_2 .next_step').click(function (e) {e.preventDefault();	$('.step_3').trigger('click');});
-// $('.etap_3 .next_step').click(function (e) {e.preventDefault();	$('.step_4').trigger('click');});
-// $('.etap_4 .next_step').click(function (e) {e.preventDefault();	$('.step_5').trigger('click');});
+$('.etap_1 .next_step').click(function (e) {e.preventDefault();	$('.step_2').trigger('click');});
+$('.etap_2 .next_step').click(function (e) {e.preventDefault();	$('.step_3').trigger('click');});
+$('.etap_3 .next_step').click(function (e) {e.preventDefault();	$('.step_4').trigger('click');});
+$('.etap_4 .next_step').click(function (e) {e.preventDefault();	$('.step_5').trigger('click');});
 
 
 
