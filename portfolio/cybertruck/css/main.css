@@ -137,8 +137,8 @@ textarea:not([rows]) {
 
 /* USER STYLES */
 header {
-	background-color:#000;
-background-image: url(/images/teslaback.jpg);
+background-color:#000;
+background-image: url("/images/teslaback.jpg");
 background-position: center;
 background-size: cover;
 font-size: 14px;
