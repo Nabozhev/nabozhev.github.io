@@ -1,0 +1,694 @@
+/* USER VARIABLES SECTION */
+
+:root {
+	--accent: orange;
+	--text: #333;
+	--regular-text: 16px;
+	--lineheight: 1.65;
+	--userfont: roboto-st, sans-serif;
+	--systemfont: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+}
+
+/* BOOTSTRAP SETTINGS SECTION */
+
+/* gutter 20px (10px + 10px). Comment this code for default gutter start at 1.5rem (24px) wide. */
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl { --bs-gutter-x: .625rem; }
+.row, .row > * { --bs-gutter-x: 1.25rem; }
+
+/* FONTS LOAD SECTION */
+
+@font-face { src: url("../fonts/roboto-regular-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: normal; }
+@font-face { src: url("../fonts/roboto-italic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 400; font-style: italic; }
+@font-face { src: url("../fonts/roboto-bold-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: normal; }
+@font-face { src: url("../fonts/roboto-bolditalic-webfont.woff2") format("woff2"); font-family: "roboto-st"; font-weight: 700; font-style: italic; }
+@font-face { src: url("../fonts/notosans.woff2") format("woff2"); font-family: "notosans"; font-weight: normal; }
+@font-face { src: url("../fonts/notosansbold.woff2") format("woff2"); font-family: "notosansbold"; font-weight: normal; }
+@font-face { src: url("../fonts/Rubik.woff2") format("woff2"); font-family: "Rubik"; font-weight: normal; }
+
+/* GENERAL CSS SETTINGS */
+
+::placeholder { color: #666; }
+::selection { background-color: var(--accent); color: #fff; }
+input, textarea { outline: none; }
+input:focus:required:invalid, textarea:focus:required:invalid { border-color: red; }
+input:required:valid, textarea:required:valid { border-color: green; }
+
+body {
+	font-family: var(--userfont);
+	font-size: var(--regular-text);
+	line-height: var(--lineheight);
+	color: var(--text);
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+}
+
+
+/* RESET 2023 CSS SETTINGS */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	transition: all .2s ease-in-out;
+}
+
+/* Prevent font size inflation */
+html {
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+button,
+button:active,
+button:focus {
+	border: none;
+	outline: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+	list-style: none;
+	
+}
+
+/* Set core body defaults */
+body {
+	line-height: 1;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1,
+h2,
+h3,
+h4,
+button,
+input,
+label {
+	line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1,
+h2,
+h3,
+h4 {
+	text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+	color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/* Make sure textarea without a rows attribute are not tiny */
+textarea:not([rows]) {
+	min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+	scroll-margin-block: 5ex;
+}
+
+
+
+/* USER STYLES */
+
+.image {
+	max-width: 100%;
+	margin-bottom: var(--bs-gutter-x);
+	border-radius: 4px;
+}
+
+.accent {
+	color: var(--accent);
+	font-weight: bold;
+	
+}
+.navbar-toggler-icon {
+	background: #666;
+}
+
+
+.right_block_top {
+	padding-top: 24px;
+	display: flex;
+	justify-content: right;
+}
+
+.right_block_top a {
+	padding-left: 20px;
+	font-size: 16px;
+	color: #2b2b2a;
+font-family: "notosansbold";
+line-height: 24px;
+text-decoration: none;
+}
+
+.right_block_top i {
+font-size: 24px;
+	color: #3E4F6D;
+	margin-right: 4px;
+	display: block;
+	font-weight: bold;
+	float: left;
+}
+
+.right_block_top a:first-child {
+	padding-right: 40px;
+}
+
+header {
+position: relative;
+background-image: url(../images/header_bg.svg);
+background-repeat: no-repeat;
+background-position: right top;
+
+}
+
+
+.nav-link {
+	color: #121212;
+	font-family: "Rubik";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+.nav-link:hover {
+	color: #000;
+}
+
+.dropdown-item {
+		color: #121212;
+	font-family: "Rubik";
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+}
+
+
+.btn-progress {
+	border-radius: 100px;
+	background: #3E4F6D;
+	display: inline-flex;
+	height: 64px;
+	padding: 13px 32px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0;
+	color: #FFF;
+	font-family: "Rubik";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	transition: all .3s ease;
+}
+
+
+nav .btn-progress {
+	background-color: transparent;
+	border: 1px solid #3E4F6D;
+	color: #3E4F6D;
+	font-family: "Rubik";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		height: 52px;
+}
+
+nav .btn-progress:hover {
+	background-color: #3E4F6D;
+	color:white;}
+
+
+nav .container-fluid {
+	padding: 0;
+}
+
+nav .nav-item {
+	padding-right: 44px;
+}
+ 
+ 
+
+ 
+
+
+.navbar-nav {
+	margin: 0 auto;
+}
+
+
+
+.dropdown-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.dropdown-menu {
+	transition: all .3s;
+}
+
+.hero-panel {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.left-corusel h1 {
+	margin-top: -105px;
+	color: #121212;
+	font-family: "Rubik";
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%;
+}
+
+
+.left-corusel p {
+	margin-top: 16px;
+	color: #121212;
+		font-family: Rubik;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		margin-bottom: 56px;
+}
+
+
+.left-corusel .carousel-indicators button {
+	width: 16px;
+	height: 16px;
+	background-color: #3E4F6D;
+	border-radius: 100px !important;
+	border: none !important;
+}
+
+
+.left-corusel .carousel-indicators button.active {
+		background-color: #ffffff;
+}
+
+
+.left-corusel .carousel-item img {
+	border-radius: 100%;
+
+}
+
+.left-corusel {
+	padding-top: 80px;
+}
+
+.left-corusel {
+	align-items: center;
+}
+
+body .modal-backdrop.show{
+	background: rgba(18, 25, 38, 0.70);
+	opacity: 1;
+}
+
+ /*Стили для первой секции*/
+.first_section {
+	background-color: #f4f4f4;
+	padding-top: 144px;
+	padding-bottom: 144px;
+ }
+
+
+ .first_section h2 {
+	color: #121212;
+font-family: "notosansbold";
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px;
+ }
+
+  .why-select-section h4 {
+		margin-top: 24px;
+		color: #121212;
+		font-family: "Rubik";
+		font-size: 24px;
+		font-style: bold;
+		font-weight: 600;
+	}
+
+.why-select-section p {
+	margin-top: 16px;
+		color: #121212;
+		font-family: "Rubik";
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+
+}
+
+
+.why-select-section {
+	display: flex;
+	gap: 24px;
+	flex-wrap: wrap;
+
+}
+.why-select-section div {
+	flex-basis: 414px;
+}
+
+
+.why-select-section div:first-child {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.why-select-section div:not(:first-child) {
+background-color: #fff;
+padding: 56px 24px;
+flex-direction: column;
+align-items: flex-start;
+border-radius: 16px;
+box-shadow: 2px 2px 8px 0px rgb(179, 179, 179);
+}
+
+
+/*Секция услуги*/
+.services-section {
+	padding-top: 188px;
+	padding-bottom: 144px;
+}
+.services-section h2 {
+	color: #121212;
+		font-family: "notosansbold";
+		font-size: 64px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 80px;
+		max-width: 623px;
+		margin-bottom: 80px;
+}
+
+.serv-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.serv-list>div {
+display: flex;
+flex-basis: 424px;
+padding: 0;
+position: relative;
+z-index: 1;
+border-radius: 16px;
+
+}
+
+.serv-list>div:hover {
+animation: swing 2s ease-in-out;
+animation-iteration-count: 1;
+}
+.services-item-link {
+	border-radius: 16px;
+	background-color: #F4F4F4;
+	display: flex;
+	flex-direction: column;
+text-decoration: none;
+}
+
+.services-item-link img {
+		border-radius: 16px;
+		z-index: 3;
+}
+
+
+ .services-item-link p {
+	color:#090909;
+	font-family: "Rubik";
+	padding: 24px 50px 24px 24px;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	z-index: 5;
+	position: relative;
+ }
+ .services-item-link p:after {
+	content: '';
+	font-size: 25px;
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 24px;
+	top: 32px;
+	background-position: center;
+	background-image: url(/images/arrow.svg);
+ }
+
+.services-item-link span {
+	padding: 24px;
+	color: #F4F4F4;
+	font-family: "Rubik";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	z-index: 4;
+	}
+
+.serv-list>div:hover {
+box-shadow: 0px 24px 40px -12px rgba(33, 42, 57, 0.60);
+}
+		.serv-list>div:hover:after {
+			background-color: #3E4F6D;
+			content: "";
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			border-radius: 16px;
+		}
+
+		.serv-list>div:hover img {
+			opacity: .5;
+		}
+
+.serv-list>div:hover p {
+	color: #ffffff;
+}
+.serv-list>div:hover span {
+	color: #ffffff;
+}
+
+.serv-list * {
+		transition: all .0s ease-in-out;
+}
+
+.serv-list>div:hover p:after {
+	background-image: url(/images/arrow-w.svg);
+}
+
+
+
+
+.objects {
+
+background-color: #F4F4F4;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.objects h2 {
+	color: #121212;
+	font-family: "notosansbold";
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 80px;
+	margin-bottom: 60px;
+}
+
+
+.slider-owner {
+
+}
+
+.slider-owner div {
+	/*margin-left: 11px;*/
+}
+.slick-slide {
+	margin: 0 11px;
+	/* Измените отступы между слайдами на 20 пикселей */
+}
+.slider-owner a {
+	text-decoration: none;
+}
+
+.slider-owner a img {
+	border-radius: 16px;
+}
+
+.slider-owner a p {
+	padding-top: 20px;
+	font-weight: bold;
+		font-family: "Rubik";
+		font-size: 24px;
+}
+
+.slick-arrow {
+	position: absolute;
+	left: -72px;
+	width: 48px;
+	height: 48px;
+	background-color: #3E4F6D;
+	z-index: 100;
+	font-size: 26px;
+	border-radius: 100px;
+	color: #fff;
+	box-shadow: 2px 2px 8px 0px rgb(179, 179, 179);
+}
+
+.slick-prev {top: 162px;
+
+}
+.slick-next {top: 90px;
+
+}
+
+.slick-arrow:hover {
+		background-color: #fff;
+}
+.slick-arrow:hover i {
+		color: #3E4F6D;
+}
+
+
+.show_all__objects {
+	display: block;
+	text-align: center;
+	gap: 10px;
+	margin-top: 15px;
+	background: #3E4F6D;
+	color: #FFF;
+	padding: 16px 38px;
+	border-radius: 16px;
+	float: right;
+	font-family: "Rubik";
+	text-decoration: none;
+	font-size: 14px;
+	}
+
+		.show_all__objects:hover {
+			background-color: #2d3b53;
+			color: #FFF;
+			
+		}
+
+
+footer {
+	background-color: #192336;
+	padding-top: 64px;
+	padding-bottom: 32px;
+}
+
+
+.footer_menu {
+	list-style: none;
+}
+
+.footer_menu li a {
+	color: #FFF;
+	
+}
+
+
+.footer_menu li a:hover {
+	color: #FFF;
+	
+}
+
+.flb_cont {
+	display: flex;
+	flex-direction: column;
+	color: #FFF;
+
+}
+
+.flb_cont a {
+	text-decoration: none;
+	line-height: 120%;
+	margin-top: 14px;
+	font-family: "Rubik";
+	font-size: 14px;
+	opacity: .8;
+}
+
+.flb_cont a:nth-child(4) {
+	margin-top: 20px;
+}
+
+
+.flb_cont h6 {
+		font-family: "Rubik";
+			font-size: 24px;
+			font-weight: bold;
+}
+
+.down_footer {
+	color: #FFF;
+	
+}
+.down_footer a {
+	text-align: right;
+	display: block;
+	float: right;
+}
+
+.down_footer span {
+	border-top: 1px solid #fff;
+	opacity: .5;
+	padding-bottom: 32px;
+	margin-top: 50px;
+}
